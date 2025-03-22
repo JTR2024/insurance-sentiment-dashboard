@@ -1,37 +1,38 @@
-# Insurance Sentiment Dashboard (GPT-4o + Synthetic Data)
+# Insurance Sentiment Dashboard
 
-This project demonstrates how generative AI can be used to analyze sentiment in insurance-related customer feedback using synthetic data and GPT-4o. Built with Streamlit, the app allows users to:
-- Explore sentiment breakdowns across 500 AI-generated insurance comments
-- Filter results by company mentions
-- Test GPT-4o in real time by classifying custom input
-
----
-
-## What This Project Covers
-
-- **Synthetic Data Generation**
-  Created 500 realistic customer feedback comments using Python. Each entry includes metadata like company mentioned and topic discussed.
-
-- **Sentiment Classification with GPT-4o**
-  Applied OpenAI's GPT-4o to label each comment as positive, neutral, or negative using prompt-based classification.
-
-- **Interactive Streamlit Dashboard**
-  Built and deployed a responsive dashboard with filtering, charting, and real-time GPT interaction.
+This project demonstrates how generative AI can be used to simulate and analyze customer sentiment in the insurance industry using synthetic data and a GPT-4o classifier. It includes:
+- A data generation pipeline that creates synthetic insurance customer feedback
+- Sentiment classification using OpenAI GPT-4o
+- A deployed Streamlit dashboard to explore and interact with the results
 
 ---
 
-## Features
+## Background
 
-- Load and analyze 500 synthetic feedback comments
-- Visualize sentiment breakdown by company
-- Filter by sentiment type
-- Classify new text input using GPT-4o on demand
+This project began as a notebook-based workflow where I:
+- Generated 500 synthetic insurance-related customer feedback comments using prompt engineering and randomized templates
+- Annotated each comment using GPT-4o to classify sentiment as positive, neutral, or negative
+- Captured metadata like company mentioned and topic discussed for each comment
+
+The notebook (`SentimentAnalysis.ipynb`) is included in the repo.
 
 ---
 
-## Example Use Case
+## What the Dashboard Does
 
-This dashboard simulates an AI-assisted feedback workflow. It demonstrates how LLMs like GPT-4o can be integrated into practical sentiment analysis pipelines for customer support or product feedback applications.
+The dashboard builds on that work and provides:
+- A company-level sentiment breakdown across 500 GPT-labeled comments
+- A bar chart visualization that updates when filtered
+- A live GPT-4o input to classify new customer feedback in real time
+
+---
+
+## Use Cases
+
+This project simulates a realistic workflow for:
+- Applying LLMs to customer feedback pipelines
+- Exploring synthetic data for modeling or prototyping
+- Demonstrating prompt-based classification in a web app
 
 ---
 
@@ -39,13 +40,13 @@ This dashboard simulates an AI-assisted feedback workflow. It demonstrates how L
 
 - Python 3.10+
 - Streamlit
+- OpenAI GPT-4o API
 - Pandas, Matplotlib
-- OpenAI API (GPT-4o)
-- GitHub + Streamlit Cloud (for deployment)
+- GitHub + Streamlit Cloud
 
 ---
 
-## Setup Instructions
+## Setup
 
 1. Clone the repository:
 ```bash
@@ -69,10 +70,14 @@ os.environ["OPENAI_API_KEY"] = "your-key-here"
 streamlit run streamlit_app.py
 ```
 
-## Live Demo
+## Live App
 
-View the deployed dashboard here: https://insurance-sentiment-dashboard-iuuaq3ryzvet7q2eifayd6.streamlit.app
+View the deployed app here: https://insurance-sentiment-dashboard-iuuaq3ryzvet7q2eifayd6.streamlit.app
+
+## Notebooks
+
+The original notebook that generated the data and applied GPT classification is included in the `/archive/` folder.
 
 ## Author
 
-Created by JTR2024 as a demonstration of end-to-end LLM-based analysis and deployment using synthetic data.
+Built by JTR2024 as a full-stack LLM pipeline demo for generative AI and insurance sentiment analysis.
