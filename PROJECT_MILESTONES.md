@@ -47,11 +47,13 @@
 
 ---
 
-## 🔜 Milestone 5: Deployment Pipeline
+## ✅ Milestone 5: Deployment Pipeline
 
-- [ ] Add `requirements.txt`, `Procfile`, and runtime config
-- [ ] Configure GitHub Actions for CI
-- [ ] Deploy to AWS or Streamlit Cloud
+- [x] Created and committed `Procfile` for deployment
+- [x] Added `requirements.txt` and verified dependencies
+- [x] Committed `labeled_comments.csv` for cloud access
+- [x] Deployed working app to Streamlit Cloud
+- [x] Cleaned up diagnostics post-deploy
 
 ---
 
