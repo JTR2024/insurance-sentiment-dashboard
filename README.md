@@ -1,59 +1,78 @@
-# 📊 Insurance Sentiment Dashboard (GPT-4o + Synthetic Data)
+# Insurance Sentiment Dashboard (GPT-4o + Synthetic Data)
 
-This project demonstrates how Generative AI can be used to analyze sentiment in customer feedback — specifically in the insurance industry — using synthetic data and a GPT-4o-powered classifier.
-
-Built with **Streamlit**, this app presents a live dashboard where users can:
+This project demonstrates how generative AI can be used to analyze sentiment in insurance-related customer feedback using synthetic data and GPT-4o. Built with Streamlit, the app allows users to:
 - Explore sentiment breakdowns across 500 AI-generated insurance comments
-- Filter sentiment by company mentions
-- Try GPT-4o on their own custom comment input
+- Filter results by company mentions
+- Test GPT-4o in real time by classifying custom input
 
 ---
 
-## 🧠 What This Project Shows
+## What This Project Covers
 
-- **Synthetic Data Generation**  
-  Used Python to simulate 500 realistic insurance-related customer feedback comments, along with metadata such as company mentions and discussion topics.
+- **Synthetic Data Generation**
+  Created 500 realistic customer feedback comments using Python. Each entry includes metadata like company mentioned and topic discussed.
 
-- **Sentiment Classification Using GPT-4o**  
-  Each comment was classified using OpenAI’s GPT-4o via prompt-based interaction, assigning `positive`, `neutral`, or `negative` labels.
+- **Sentiment Classification with GPT-4o**
+  Applied OpenAI's GPT-4o to label each comment as positive, neutral, or negative using prompt-based classification.
 
-- **Streamlit Dashboard Deployment**  
-  A clean UI for exploring sentiment by company, visualizing sentiment distribution, and testing GPT on-the-fly with new input.
-
----
-
-## 🚀 Features
-
-- 📁 Analyzes a dataset of 500 synthetic insurance feedback comments  
-- 🏷 Sentiment classification: **positive**, **neutral**, **negative**  
-- 🏢 Company filter for focused analysis (e.g. Allstate, USAA, Progressive)  
-- 📈 Bar chart showing sentiment breakdown by selected company  
-- 🧪 GPT-4o prompt interface to classify new comments in real time
+- **Interactive Streamlit Dashboard**
+  Built and deployed a responsive dashboard with filtering, charting, and real-time GPT interaction.
 
 ---
 
-## 💡 Example Use Case
+## Features
 
-This dashboard could be used to:
-- Simulate an **AI-driven sentiment pipeline** for customer feedback
-- Showcase **LLM integration** in data workflows
-- Test how language affects **perceived sentiment** in support conversations
+- Load and analyze 500 synthetic feedback comments
+- Visualize sentiment breakdown by company
+- Filter by sentiment type
+- Classify new text input using GPT-4o on demand
 
 ---
 
-## 🛠 Tech Stack
+## Example Use Case
+
+This dashboard simulates an AI-assisted feedback workflow. It demonstrates how LLMs like GPT-4o can be integrated into practical sentiment analysis pipelines for customer support or product feedback applications.
+
+---
+
+## Tech Stack
 
 - Python 3.10+
 - Streamlit
 - Pandas, Matplotlib
-- OpenAI GPT-4o API
-- GitHub + Streamlit Cloud (deployment)
+- OpenAI API (GPT-4o)
+- GitHub + Streamlit Cloud (for deployment)
 
 ---
 
-## 📦 Setup
+## Setup Instructions
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/JTR2024/insurance-sentiment-dashboard.git
-   cd insurance-sentiment-dashboard
+1. Clone the repository:
+```bash
+git clone https://github.com/JTR2024/insurance-sentiment-dashboard.git
+cd insurance-sentiment-dashboard
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Set your OpenAI API key:
+```python
+import os
+os.environ["OPENAI_API_KEY"] = "your-key-here"
+```
+
+4. Launch the app locally:
+```bash
+streamlit run streamlit_app.py
+```
+
+## Live Demo
+
+View the deployed dashboard here: https://insurance-sentiment-dashboard-iuuaq3ryzvet7q2eifayd6.streamlit.app
+
+## Author
+
+Created by JTR2024 as a demonstration of end-to-end LLM-based analysis and deployment using synthetic data.
