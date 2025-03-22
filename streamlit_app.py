@@ -8,9 +8,9 @@ st.set_page_config(page_title="Insurance Sentiment Dashboard", layout="wide")
 
 st.title("Insurance Sentiment Dashboard")
 st.markdown("""
-This dashboard analyzes 500 synthetic insurance-related feedback comments.
-Each comment was classified by GPT-4o as positive, neutral, or negative.
-Use the filters and tools below to explore sentiment by company or test your own text.
+This project simulates an AI-driven workflow for analyzing customer feedback in the insurance industry.  
+It uses 500 synthetic comments to demonstrate how large language models (LLMs) can be applied for sentiment classification and data exploration.  
+Use the dashboard to explore sentiment by company, or try classifying a new comment with GPT-4o.
 """)
 
 # Load and clean data
@@ -24,7 +24,6 @@ sample_data['sentiment'] = (
 )
 sample_data = sample_data.dropna(subset=["sentiment"])
 
-# Show total
 st.markdown(f"Analyzing {len(sample_data)} total comments.")
 
 # Filter by company
@@ -42,7 +41,7 @@ sentiment_counts = filtered_data['sentiment'].value_counts().reindex(
     ['positive', 'neutral', 'negative'], fill_value=0
 )
 
-fig, ax = plt.subplots(figsize=(5, 3.5))
+fig, ax = plt.subplots(figsize=(4, 2.5))  # Smaller chart
 sentiment_counts.plot(kind='bar', color='skyblue', ax=ax)
 ax.set_ylabel("Number of Comments")
 ax.set_xlabel("Sentiment")
