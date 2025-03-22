@@ -22,7 +22,7 @@ st.markdown("Analyze customer sentiment across synthetic insurance feedback.")
     #st.error("❌ MISSING: data/labeled_comments.csv")
 
 #if os.path.exists("data"):
-    st.write("📁 Contents of /data folder:", os.listdir("data"))
+    #st.write("📁 Contents of /data folder:", os.listdir("data"))
 #else:
     #st.error("❌ The /data folder itself is missing!")
 
