@@ -59,11 +59,14 @@ else:
 
 sentiment_counts = filtered_data['sentiment'].value_counts()
 
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(6, 4))  # Smaller, cleaner layout
 sentiment_counts.plot(kind='bar', color='skyblue', ax=ax)
+
 ax.set_ylabel("Number of Comments")
 ax.set_xlabel("Sentiment")
 ax.set_title("Sentiment Distribution")
+ax.set_ylim(0, sentiment_counts.max() + 1)  # Set proper Y-axis scale
+
 st.pyplot(fig)
 
 # -------------------------------
