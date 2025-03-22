@@ -1,0 +1,9 @@
+openai
+python-dotenv
+numpy
+pandas
+matplotlib
+seaborn
+wordcloud
+scikit-learn
+jupyter
