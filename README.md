@@ -4,12 +4,10 @@
 
 ## Overview
 
-This project demonstrates how generative AI can be used to simulate and analyze customer sentiment in the insurance industry using synthetic data and a GPT-4o classifier.
-
-It features:
+This project demonstrates how generative AI can be used to simulate and analyze customer sentiment in the insurance industry. It uses synthetic data and GPT-4o for classification, and presents the results in an interactive dashboard. It includes:
 - A custom data pipeline for generating realistic insurance feedback
 - Sentiment classification using GPT-4o
-- An interactive Streamlit dashboard for exploring sentiment trends by company
+- A Streamlit dashboard for exploring sentiment trends by company
 
 ## Features
 
