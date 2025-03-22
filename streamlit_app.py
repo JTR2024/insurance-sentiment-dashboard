@@ -3,64 +3,69 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import openai
-import os
 
 # -------------------------------
 # Streamlit Config & Header
 # -------------------------------
-st.set_page_config(page_title="Insurance Sentiment Dashboard", layout="wide")
+st.set_page_config(page_title="Insurance Sentiment Demo", layout="wide")
 st.title("📊 Insurance Sentiment Dashboard")
-st.markdown("Analyze customer sentiment across synthetic insurance feedback.")
+st.markdown("""
+This dashboard explores **500 synthetic customer feedback comments** generated to simulate insurance-related discussions.  
+All comments were classified using **GPT-4o** into sentiment categories.  
+Use the charts and tools below to explore the data or test GPT's classification on your own text.
+""")
 
 # -------------------------------
-# Load CSV Data
+# Load Data & Rename Columns
 # -------------------------------
 try:
-    sample_data = pd.read_csv("data/labeled_comments.csv")
-    sample_data = sample_data.rename(columns={"true_sentiment": "sentiment"})
+    df = pd.read_csv("data/labeled_comments.csv")
+    df = df.rename(columns={"true_sentiment": "sentiment"})
 except FileNotFoundError:
     st.error("CSV not found at data/labeled_comments.csv")
     st.stop()
 
-# -------------------------------
-# Clean and Normalize Sentiment
-# -------------------------------
-sample_data['sentiment'] = (
-    sample_data['sentiment']
+# Clean and normalize sentiment
+df['sentiment'] = (
+    df['sentiment']
     .str.lower()
     .str.extract(r'(positive|neutral|negative)', expand=False)
 )
-sample_data = sample_data.dropna(subset=["sentiment"])
+df = df.dropna(subset=["sentiment"])
+
+st.markdown(f"📄 Currently analyzing **{len(df)} comments**")
 
 # -------------------------------
-# Sentiment Distribution + Filter
+# Sentiment by Company Chart
 # -------------------------------
-st.subheader("Sentiment Distribution")
-sentiment_options = ["all"] + sorted(sample_data['sentiment'].unique())
-selected_sentiment = st.selectbox("Filter by Sentiment", sentiment_options)
+st.subheader("📊 Sentiment Breakdown by Company")
 
-if not selected_sentiment or selected_sentiment == "all":
-    filtered_data = sample_data
+selected_company = st.selectbox(
+    "Filter by Company Mentioned",
+    options=["All"] + sorted(df['company_mentioned'].dropna().unique())
+)
+
+if selected_company == "All":
+    filtered = df
 else:
-    filtered_data = sample_data[sample_data['sentiment'] == selected_sentiment]
+    filtered = df[df['company_mentioned'] == selected_company]
 
-# Plot chart with fixed Y-axis and better size
-fig, ax = plt.subplots(figsize=(6, 4))
-sentiment_counts = filtered_data['sentiment'].value_counts()
+sentiment_counts = filtered['sentiment'].value_counts().reindex(['positive', 'neutral', 'negative'], fill_value=0)
+
+fig, ax = plt.subplots(figsize=(5, 3.5))
 sentiment_counts.plot(kind='bar', color='skyblue', ax=ax)
-
+ax.set_title(f"Sentiment for {selected_company if selected_company != 'All' else 'All Companies'}")
 ax.set_ylabel("Number of Comments")
-ax.set_xlabel("Sentiment")
-ax.set_title("Sentiment Distribution")
 ax.yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
-ax.set_ylim(0, sentiment_counts.max() + 1)
-
 st.pyplot(fig)
 
 # -------------------------------
 # GPT-4o Live Sentiment Classifier
 # -------------------------------
-st.subheader("🔍 Classify a New Comment")
+st.subheader("🧠 Try GPT-4o Sentiment Classification")
+
+example = "I'm still waiting to hear back about my claim, it's frustrating."
+user_input = st.text_area("Enter a customer comment:", placeholder=example)
 
 def classify_sentiment(text: str) -> str:
     try:
@@ -78,12 +83,10 @@ def classify_sentiment(text: str) -> str:
     except Exception as e:
         return f"Error: {e}"
 
-user_input = st.text_area("Enter a customer comment:")
-
-if st.button("Classify Sentiment"):
+if st.button("Classify Comment"):
     if user_input.strip() == "":
-        st.warning("Please enter a comment first.")
+        st.warning("Please enter a comment.")
     else:
-        with st.spinner("Classifying..."):
-            sentiment_result = classify_sentiment(user_input)
-        st.success(f"**Sentiment:** {sentiment_result}")
+        with st.spinner("Asking GPT-4o..."):
+            result = classify_sentiment(user_input)
+        st.success(f"**Sentiment:** {result}")
