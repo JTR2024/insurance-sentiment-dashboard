@@ -1,83 +1,75 @@
 # Insurance Sentiment Dashboard
 
-This project demonstrates how generative AI can be used to simulate and analyze customer sentiment in the insurance industry using synthetic data and a GPT-4o classifier. It includes:
-- A data generation pipeline that creates synthetic insurance customer feedback
-- Sentiment classification using OpenAI GPT-4o
-- A deployed Streamlit dashboard to explore and interact with the results
+**Live App**: [https://insurance-sentiment-dashboard-iuuaq3ryzvet7q2eifayd6.streamlit.app](#)
 
----
+## Overview
+This project demonstrates how generative AI can be used to simulate and analyze customer sentiment in the insurance industry using synthetic data and a GPT-4o classifier.
+
+**Features**:
+- **Synthetic Data Generation**: Realistic insurance feedback is created using prompt engineering.
+- **Sentiment Classification**: GPT-4o labels each feedback comment as positive, neutral, or negative.
+- **Interactive Dashboard**: A Streamlit application for exploring sentiment trends and trying live GPT-4o classification.
+
+## Architecture
+*(Insert a simple flow diagram here if possible.)*
+
+1. **Synthetic Feedback** → 
+2. **GPT-4o Sentiment Analysis** → 
+3. **Data Storage & Processing** → 
+4. **Streamlit Visualization**
 
 ## Background
+Initially a notebook-based workflow (`SentimentAnalysis.ipynb`), the project has grown into a full-stack, Streamlit-powered web application. Over 500 synthetic comments were generated and labeled for sentiment, company names, and discussion topics.
 
-This project began as a notebook-based workflow where I:
-- Generated 500 synthetic insurance-related customer feedback comments using prompt engineering and randomized templates
-- Annotated each comment using GPT-4o to classify sentiment as positive, neutral, or negative
-- Captured metadata like company mentioned and topic discussed for each comment
+## Setup and Usage
+1. **Clone the repo**:
+    ```bash
+    git clone https://github.com/JTR2024/insurance-sentiment-dashboard.git
+    cd insurance-sentiment-dashboard
+    ```
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **Configure API key**:
+    ```python
+    import os
+    os.environ["OPENAI_API_KEY"] = "your-key-here"
+    ```
+4. **Run the app locally**:
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+5. **Visit the Live App**:  
+   [Streamlit App](https://insurance-sentiment-dashboard-iuuaq3ryzvet7q2eifayd6.streamlit.app)
 
-The notebook (`SentimentAnalysis.ipynb`) is included in the repo.
+## Dashboard Features
+- **Company-Level Sentiment**: A bar chart that breaks down sentiment per company and updates with filters.
+- **Real-Time Classification**: Input any text, and GPT-4o classifies sentiment immediately.
 
----
-
-## What the Dashboard Does
-
-The dashboard builds on that work and provides:
-- A company-level sentiment breakdown across 500 GPT-labeled comments
-- A bar chart visualization that updates when filtered
-- A live GPT-4o input to classify new customer feedback in real time
-
----
-
-## Use Cases
-
-This project simulates a realistic workflow for:
-- Applying LLMs to customer feedback pipelines
-- Exploring synthetic data for modeling or prototyping
-- Demonstrating prompt-based classification in a web app
-
----
-
-## Tech Stack
-
-- Python 3.10+
-- Streamlit
-- OpenAI GPT-4o API
-- Pandas, Matplotlib
-- GitHub + Streamlit Cloud
-
----
-
-## Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/JTR2024/insurance-sentiment-dashboard.git
-cd insurance-sentiment-dashboard
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set your OpenAI API key:
-```python
-import os
-os.environ["OPENAI_API_KEY"] = "your-key-here"
-```
-
-4. Launch the app locally:
-```bash
-streamlit run streamlit_app.py
-```
-
-## Live App
-
-View the deployed app here: https://insurance-sentiment-dashboard-iuuaq3ryzvet7q2eifayd6.streamlit.app
+*(Add screenshots or GIFs if possible.)*
 
 ## Notebooks
+- `SentimentAnalysis.ipynb` in `/archive/`:  
+  - Synthetic data generation  
+  - GPT-4o annotation process  
+  - Exploratory data analysis
 
-The original notebook that generated the data and applied GPT classification is included in the `/archive/` folder.
+## Performance & Metrics
+*(If available, provide a summary of the sentiment model’s accuracy or an example confusion matrix.)*
 
-## Author
+## Future Directions
+- Integration with RAG for context-based Q&A
+- Automated CI/CD pipeline (GitHub Actions)
+- Enhanced performance evaluation & error analysis
 
-Built by JTR2024 as a full-stack LLM pipeline demo for generative AI and insurance sentiment analysis.
+## Contributing
+Contributions are welcome! Please open a pull request or file an issue.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+**Author**: JTR2024  
+Built as a full-stack LLM pipeline demo for generative AI and insurance sentiment analysis.
