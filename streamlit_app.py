@@ -8,11 +8,12 @@ st.set_page_config(page_title="Insurance Sentiment Dashboard", layout="wide")
 st.title("Insurance Sentiment Dashboard")
 st.markdown("Analyze customer sentiment across synthetic insurance feedback.")
 
-# Load real labeled data
+# -------------------------------
+# Load and clean the data
+# -------------------------------
 sample_data = pd.read_csv("data/labeled_comments.csv")
 sample_data = sample_data.rename(columns={"true_sentiment": "sentiment"})
 
-# Normalize sentiment
 sample_data['sentiment'] = (
     sample_data['sentiment']
     .str.lower()
@@ -20,7 +21,9 @@ sample_data['sentiment'] = (
 )
 sample_data = sample_data.dropna(subset=["sentiment"])
 
-# Add sentiment filter
+# -------------------------------
+# Sentiment filter
+# -------------------------------
 st.subheader("Sentiment Distribution")
 sentiment_options = ["all"] + sorted(sample_data['sentiment'].unique())
 selected_sentiment = st.selectbox("Filter by Sentiment", sentiment_options)
@@ -31,7 +34,9 @@ if selected_sentiment != "all":
 else:
     filtered_data = sample_data
 
-# Plot chart
+# -------------------------------
+# Plot the chart
+# -------------------------------
 sentiment_counts = filtered_data['sentiment'].value_counts()
 
 fig, ax = plt.subplots(figsize=(6, 4))
