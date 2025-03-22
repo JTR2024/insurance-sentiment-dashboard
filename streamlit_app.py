@@ -14,17 +14,17 @@ st.markdown("Analyze customer sentiment across synthetic insurance feedback.")
 # -------------------------------
 # Diagnostics: Show CWD and Data Folder
 # -------------------------------
-st.write("✅ Current Working Directory:", os.getcwd())
+#st.write("✅ Current Working Directory:", os.getcwd())
 
-if os.path.exists("data/labeled_comments.csv"):
-    st.success("✅ Found: data/labeled_comments.csv")
-else:
-    st.error("❌ MISSING: data/labeled_comments.csv")
+#if os.path.exists("data/labeled_comments.csv"):
+   # st.success("✅ Found: data/labeled_comments.csv")
+#else:
+    #st.error("❌ MISSING: data/labeled_comments.csv")
 
-if os.path.exists("data"):
+#if os.path.exists("data"):
     st.write("📁 Contents of /data folder:", os.listdir("data"))
-else:
-    st.error("❌ The /data folder itself is missing!")
+#else:
+    #st.error("❌ The /data folder itself is missing!")
 
 # -------------------------------
 # Load CSV Data (✅ FIXED)
