@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.env
+
+# Data files
+/data/*
+!/data/.gitkeep
+
+# Environment files
+.env
+*.env
+
+# Mac system files
+.DS_Store
