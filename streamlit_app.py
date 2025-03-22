@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import openai
 import os
 
@@ -12,25 +13,11 @@ st.title("📊 Insurance Sentiment Dashboard")
 st.markdown("Analyze customer sentiment across synthetic insurance feedback.")
 
 # -------------------------------
-# Diagnostics: Show CWD and Data Folder
-# -------------------------------
-#st.write("✅ Current Working Directory:", os.getcwd())
-
-#if os.path.exists("data/labeled_comments.csv"):
-   # st.success("✅ Found: data/labeled_comments.csv")
-#else:
-    #st.error("❌ MISSING: data/labeled_comments.csv")
-
-#if os.path.exists("data"):
-    #st.write("📁 Contents of /data folder:", os.listdir("data"))
-#else:
-    #st.error("❌ The /data folder itself is missing!")
-
-# -------------------------------
-# Load CSV Data (✅ FIXED)
+# Load CSV Data
 # -------------------------------
 try:
     sample_data = pd.read_csv("data/labeled_comments.csv")
+    sample_data = sample_data.rename(columns={"true_sentiment": "sentiment"})
 except FileNotFoundError:
     st.error("CSV not found at data/labeled_comments.csv")
     st.stop()
@@ -52,20 +39,21 @@ st.subheader("Sentiment Distribution")
 sentiment_options = ["all"] + sorted(sample_data['sentiment'].unique())
 selected_sentiment = st.selectbox("Filter by Sentiment", sentiment_options)
 
-if selected_sentiment != "all":
-    filtered_data = sample_data[sample_data['sentiment'] == selected_sentiment]
-else:
+if not selected_sentiment or selected_sentiment == "all":
     filtered_data = sample_data
+else:
+    filtered_data = sample_data[sample_data['sentiment'] == selected_sentiment]
 
+# Plot chart with fixed Y-axis and better size
+fig, ax = plt.subplots(figsize=(6, 4))
 sentiment_counts = filtered_data['sentiment'].value_counts()
-
-fig, ax = plt.subplots(figsize=(6, 4))  # Smaller, cleaner layout
 sentiment_counts.plot(kind='bar', color='skyblue', ax=ax)
 
 ax.set_ylabel("Number of Comments")
 ax.set_xlabel("Sentiment")
 ax.set_title("Sentiment Distribution")
-ax.set_ylim(0, sentiment_counts.max() + 1)  # Set proper Y-axis scale
+ax.yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+ax.set_ylim(0, sentiment_counts.max() + 1)
 
 st.pyplot(fig)
 
