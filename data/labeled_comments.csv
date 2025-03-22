@@ -1,4 +1,501 @@
-comment,sentiment
-I’m really happy with how quickly they resolved my issue.,positive
-The customer service rep was rude.,negative
-I don’t feel strongly either way about this company.,the sentiment of this feedback is neutral.
+text,timestamp,user_id,company_mentioned,topic_discussed,true_sentiment
+Worst experience ever with Geico's discounts. Would give zero stars if I could.,2023-01-01,8a8f7c2a,Geico,discounts,negative
+Farmers increased my policy coverage premium by 39% for no reason! Complete waste of time and money.,2023-01-02,23ab99b7,Farmers,policy coverage,negative
+Looking for feedback on Progressive for mobile app. What's been your experience with them?,2023-01-03,1641c652,Progressive,mobile app,neutral
+Progressive's customer service is a joke when it comes to health insurance. Complete waste of time and money.,2023-01-05,aab6bcec,Progressive,health insurance,negative
+Looking for feedback on Lemonade for discounts. Curious about others' experiences before I commit.,2023-01-05,98e926da,Lemonade,discounts,neutral
+"Erie Insurance's insurance agents is worth every penny. The whole process was painless, which I wasn't expecting!",2023-01-08,31e57369,Erie Insurance,insurance agents,positive
+"I've been with The Hartford for 10 years and their liability coverage has always been top-notch. Their mobile app is actually useful, unlike some other companies.",2023-01-09,1a43a1ee,The Hartford,liability coverage,positive
+Switching away from Lemonade after their horrible handling of my bundling. Total ripoff!,2023-01-09,11018fe6,Lemonade,bundling,negative
+Amica came through for me after my accident. Their health insurance coverage was exactly what I needed. Couldn't be happier with the service.,2023-01-10,3d53c87c,Amica,health insurance,positive
+The claims process with USAA was surprisingly smooth. Will definitely be sticking with them for the foreseeable future.,2023-01-10,aebec7a6,USAA,online quotes,positive
+Travelers increased my renters insurance premium by 42% for no reason! Currently shopping around for alternatives.,2023-01-11,b1d9f804,Travelers,renters insurance,negative
+Been fighting with State Farm for 11 months over my roadside assistance claim. Complete waste of time and money.,2023-01-11,d7205bec,State Farm,roadside assistance,negative
+Switching away from USAA after their horrible handling of my customer service. They're just looking for excuses not to pay.,2023-01-13,f028a897,USAA,customer service,negative
+The claims process with Progressive was surprisingly smooth. They really came through when I needed them.,2023-01-14,4f581b82,Progressive,renewal,positive
+Just got a quote from Erie Insurance for roadside assistance. Not sure what to think yet. Still weighing my options at this point.,2023-01-15,f8ca095b,Erie Insurance,roadside assistance,neutral
+"After switching to Root, I'm saving 48 on my deductibles. Their mobile app is actually useful, unlike some other companies.",2023-01-16,af8bc690,Root,deductibles,positive
+Don't believe The Hartford's advertisements about renewal. Spent hours on hold only to get nowhere.,2023-01-17,fd84ef4b,The Hartford,renewal,negative
+I've been with Geico for 12 years and their insurance agents has always been top-notch. Will definitely be sticking with them for the foreseeable future.,2023-01-17,8e407d99,Geico,insurance agents,positive
+Really impressed with Progressive's customer service when dealing with my premium increase. The agent was extremely helpful and knowledgeable.,2023-01-18,fa65a657,Progressive,premium increase,positive
+"Can't recommend USAA enough for bundling. The whole process was painless, which I wasn't expecting!",2023-01-19,5bdf2559,USAA,bundling,positive
+Worst experience ever with Lemonade's online quotes. Their agents don't seem to know their own policies.,2023-01-20,162829cb,Lemonade,online quotes,negative
+Allstate increased my mobile app premium by 19% for no reason! Always some fine print they try to hide behind.,2023-01-20,756c3162,Allstate,mobile app,negative
+I've been with USAA for 6 years and their auto insurance has always been top-notch. The agent was extremely helpful and knowledgeable.,2023-01-20,46358598,USAA,auto insurance,positive
+Avoid Progressive at all costs! Their online quotes is terrible. Feels like they're actively trying to make things difficult.,2023-01-20,1126afc2,Progressive,online quotes,negative
+Root's customer service is a joke when it comes to renters insurance. Complete waste of time and money.,2023-01-21,4dd3e000,Root,renters insurance,negative
+The claims process with Allstate was surprisingly smooth. Highly recommend!,2023-01-21,e6e82d2b,Allstate,premium increase,positive
+Has anyone had experience with Allstate's health insurance? Wondering if there are better options out there.,2023-01-21,a3932e33,Allstate,health insurance,neutral
+Comparing roadside assistance between State Farm and Root. Trying to make sure I'm getting the best deal possible.,2023-01-22,caf4dfea,State Farm,roadside assistance,neutral
+They denied my claim even though I've been paying for discounts coverage for years! Their agents don't seem to know their own policies.,2023-01-24,1fb0e717,Farmers,discounts,negative
+Had to file a complaint with the insurance commissioner about Nationwide's bundling practices. Feels like they're actively trying to make things difficult.,2023-01-24,d5ab4302,Nationwide,bundling,negative
+Anyone know if USAA will increase accident forgiveness rates after a minor theft? Wondering if there are better options out there.,2023-01-24,b089d9ac,USAA,accident forgiveness,neutral
+Does Erie Insurance offer good renewal for someone in Ohio? Would appreciate any insights from current customers.,2023-01-25,953bffea,Erie Insurance,renewal,neutral
+They denied my claim even though I've been paying for renewal coverage for years! Complete waste of time and money.,2023-01-26,8573e233,Erie Insurance,renewal,negative
+Switching away from Lemonade after their horrible handling of my auto insurance. They're just looking for excuses not to pay.,2023-01-28,73783299,Lemonade,auto insurance,negative
+What's the process for filing a deductibles claim with The Hartford? Any pros/cons would be helpful.,2023-01-28,cca8ea31,The Hartford,deductibles,neutral
+Switching away from Allstate after their horrible handling of my bundling. Would give zero stars if I could.,2023-01-29,93f0b0aa,Allstate,bundling,negative
+Been fighting with Geico for 7 months over my renters insurance claim. Complete waste of time and money.,2023-01-29,e8ee005c,Geico,renters insurance,negative
+Don't believe State Farm's advertisements about underwriting. Always some fine print they try to hide behind.,2023-01-29,8b87d0d6,State Farm,underwriting,negative
+Just got a quote from Liberty Mutual for liability coverage. Not sure what to think yet. Has anyone had a similar experience?,2023-01-30,43871eda,Liberty Mutual,liability coverage,neutral
+Don't believe Farmers's advertisements about accident forgiveness. Spent hours on hold only to get nowhere.,2023-01-30,d4607ee9,Farmers,accident forgiveness,negative
+Had to file a complaint with the insurance commissioner about Nationwide's insurance agents practices. Always some fine print they try to hide behind.,2023-02-01,390f7d0d,Nationwide,insurance agents,negative
+Anyone else having issues with Farmers's auto insurance? Complete waste of time and money.,2023-02-02,72af1b22,Farmers,auto insurance,negative
+Really impressed with Amica's customer service when dealing with my accident forgiveness. The agent was extremely helpful and knowledgeable.,2023-02-03,5235974c,Amica,accident forgiveness,positive
+Finally found an insurance company that doesn't make everything difficult. Nationwide's insurance agents is straightforward. They really came through when I needed them.,2023-02-05,355ad330,Nationwide,insurance agents,positive
+They denied my claim even though I've been paying for health insurance coverage for years! Always some fine print they try to hide behind.,2023-02-07,66afd124,Geico,health insurance,negative
+Just got a quote from Amica for underwriting. Not sure what to think yet. What's been your experience with them?,2023-02-08,1c95442b,Amica,underwriting,neutral
+"After switching to The Hartford, I'm saving 20 on my policy coverage. The whole process was painless, which I wasn't expecting!",2023-02-08,a03a557b,The Hartford,policy coverage,positive
+Worst experience ever with Nationwide's bundling. Feels like they're actively trying to make things difficult.,2023-02-10,49a34213,Nationwide,bundling,negative
+Anyone else having issues with State Farm's liability coverage? Their agents don't seem to know their own policies.,2023-02-10,8f5d38be,State Farm,liability coverage,negative
+Geico's customer service is worth every penny. They processed everything quickly and efficiently.,2023-02-10,f433ff52,Geico,customer service,positive
+Can't recommend Erie Insurance enough for mobile app. It was refreshing to deal with people who genuinely wanted to help.,2023-02-11,bcc8dbf2,Erie Insurance,mobile app,positive
+Can't recommend Lemonade enough for discounts. The online portal makes everything so easy.,2023-02-12,26dfcf4a,Lemonade,discounts,positive
+Switching away from Amica after their horrible handling of my health insurance. Feels like they're actively trying to make things difficult.,2023-02-13,b5cc61fe,Amica,health insurance,negative
+USAA's renewal is worth every penny. They processed everything quickly and efficiently.,2023-02-13,19620448,USAA,renewal,positive
+Anyone else having issues with Allstate's health insurance? Would give zero stars if I could.,2023-02-14,d5ce6fb1,Allstate,health insurance,negative
+Just got a quote from Allstate for health insurance. Not sure what to think yet. Curious about others' experiences before I commit.,2023-02-14,9df093ad,Allstate,health insurance,neutral
+Avoid Amica at all costs! Their customer service is terrible. Currently shopping around for alternatives.,2023-02-14,3b1ae2ba,Amica,customer service,negative
+Had to file a complaint with the insurance commissioner about State Farm's home insurance practices. Total ripoff!,2023-02-16,241bc505,State Farm,home insurance,negative
+Really impressed with Nationwide's customer service when dealing with my customer service. Highly recommend!,2023-02-17,c74a328a,Nationwide,customer service,positive
+"State Farm's deductibles is worth every penny. The whole process was painless, which I wasn't expecting!",2023-02-17,9fa8a8bc,State Farm,deductibles,positive
+Just got a quote from American Family for customer service. Not sure what to think yet. Would appreciate any insights from current customers.,2023-02-17,8043abe3,American Family,customer service,neutral
+Travelers's customer service is a joke when it comes to auto insurance. Would give zero stars if I could.,2023-02-19,22923a8c,Travelers,auto insurance,negative
+Can't recommend USAA enough for deductibles. Will definitely be sticking with them for the foreseeable future.,2023-02-19,aacceb2f,USAA,deductibles,positive
+Avoid Amica at all costs! Their mobile app is terrible. Complete waste of time and money.,2023-02-20,a809de13,Amica,mobile app,negative
+Comparing health insurance between Nationwide and Geico. Curious about others' experiences before I commit.,2023-02-21,79869c63,Nationwide,health insurance,neutral
+Geico's customer service is a joke when it comes to liability coverage. Will be filing a complaint with my state insurance board.,2023-02-22,1cf15c0b,Geico,liability coverage,negative
+"Finally found an insurance company that doesn't make everything difficult. Progressive's policy coverage is straightforward. The whole process was painless, which I wasn't expecting!",2023-02-22,d83511e5,Progressive,policy coverage,positive
+Really impressed with Amica's customer service when dealing with my bundling. Couldn't be happier with the service.,2023-02-22,6f1f33f2,Amica,bundling,positive
+Anyone know if The Hartford will increase online quotes rates after a minor fire? Has anyone had a similar experience?,2023-02-22,22ff8575,The Hartford,online quotes,neutral
+Looking for feedback on Progressive for claims process. What's been your experience with them?,2023-02-22,6526c089,Progressive,claims process,neutral
+Anyone know if The Hartford will increase deductibles rates after a minor accident? Curious about others' experiences before I commit.,2023-02-22,67421071,The Hartford,deductibles,neutral
+Switching away from Nationwide after their horrible handling of my bundling. Total ripoff!,2023-02-22,594bc34c,Nationwide,bundling,negative
+Anyone know if Nationwide will increase claims process rates after a minor theft? Trying to make sure I'm getting the best deal possible.,2023-02-23,9069adb6,Nationwide,claims process,neutral
+Don't believe Geico's advertisements about liability coverage. Would give zero stars if I could.,2023-02-24,4208f5ef,Geico,liability coverage,negative
+Worst experience ever with The Hartford's home insurance. Feels like they're actively trying to make things difficult.,2023-02-24,caf791ad,The Hartford,home insurance,negative
+Anyone else having issues with State Farm's health insurance? Would give zero stars if I could.,2023-02-24,ad3b7b3f,State Farm,health insurance,negative
+Researching policy coverage options and considering USAA. Still weighing my options at this point.,2023-02-25,b7a56097,USAA,policy coverage,neutral
+The claims process with Geico was surprisingly smooth. Highly recommend!,2023-02-25,75a7f817,Geico,discounts,positive
+Anyone know if Liberty Mutual will increase bundling rates after a minor hail damage? Curious about others' experiences before I commit.,2023-02-28,8f4c3e57,Liberty Mutual,bundling,neutral
+Been fighting with Erie Insurance for 8 months over my roadside assistance claim. Will be filing a complaint with my state insurance board.,2023-03-01,14291a54,Erie Insurance,roadside assistance,negative
+State Farm's customer service is a joke when it comes to accident forgiveness. Complete waste of time and money.,2023-03-02,88f54448,State Farm,accident forgiveness,negative
+Just got a quote from Geico for underwriting. Not sure what to think yet. Wondering if there are better options out there.,2023-03-03,c2c9bca4,Geico,underwriting,neutral
+New policy with Amica starts next month. Any tips regarding their life insurance? Still weighing my options at this point.,2023-03-05,81bddb50,Amica,life insurance,neutral
+Had to file a complaint with the insurance commissioner about Amica's renters insurance practices. Would give zero stars if I could.,2023-03-06,21cb051c,Amica,renters insurance,negative
+Worst experience ever with USAA's discounts. Would give zero stars if I could.,2023-03-11,124a87a3,USAA,discounts,negative
+Really impressed with USAA's customer service when dealing with my renewal. They really came through when I needed them.,2023-03-11,adbeae80,USAA,renewal,positive
+My agent at The Hartford went above and beyond with my accident forgiveness issue. It was refreshing to deal with people who genuinely wanted to help.,2023-03-12,2c0b70a5,The Hartford,accident forgiveness,positive
+Researching claims process options and considering USAA. Just doing my research before making a decision.,2023-03-14,7b2c5d7c,USAA,claims process,neutral
+How long have you been with Liberty Mutual for your health insurance? Wondering if there are better options out there.,2023-03-14,93a58d64,Liberty Mutual,health insurance,neutral
+Really impressed with Progressive's customer service when dealing with my home insurance. The online portal makes everything so easy.,2023-03-16,6b831815,Progressive,home insurance,positive
+Lemonade's home insurance is worth every penny. It was refreshing to deal with people who genuinely wanted to help.,2023-03-16,53d1731f,Lemonade,home insurance,positive
+They denied my claim even though I've been paying for life insurance coverage for years! Complete waste of time and money.,2023-03-18,ee25aac0,State Farm,life insurance,negative
+How long have you been with Liberty Mutual for your auto insurance? Curious about others' experiences before I commit.,2023-03-18,c75632d3,Liberty Mutual,auto insurance,neutral
+They denied my claim even though I've been paying for online quotes coverage for years! Feels like they're actively trying to make things difficult.,2023-03-18,105e1b9f,The Hartford,online quotes,negative
+What's the process for filing a life insurance claim with Farmers? Any pros/cons would be helpful.,2023-03-20,4bf10841,Farmers,life insurance,neutral
+Don't believe Geico's advertisements about deductibles. Currently shopping around for alternatives.,2023-03-22,c66c8af5,Geico,deductibles,negative
+Finally found an insurance company that doesn't make everything difficult. Travelers's customer service is straightforward. Highly recommend!,2023-03-22,3c9ffa79,Travelers,customer service,positive
+Worst experience ever with State Farm's accident forgiveness. Total ripoff!,2023-03-24,35b15699,State Farm,accident forgiveness,negative
+"The claims process with Nationwide was surprisingly smooth. Their mobile app is actually useful, unlike some other companies.",2023-03-25,2bf64420,Nationwide,roadside assistance,positive
+Researching bundling options and considering Nationwide. Curious about others' experiences before I commit.,2023-03-26,0fe98b88,Nationwide,bundling,neutral
+Been fighting with Amica for 2 months over my discounts claim. Their agents don't seem to know their own policies.,2023-03-27,4def235b,Amica,discounts,negative
+How long have you been with State Farm for your liability coverage? Has anyone had a similar experience?,2023-03-27,0af7a29b,State Farm,liability coverage,neutral
+Finally found an insurance company that doesn't make everything difficult. Geico's customer service is straightforward. The online portal makes everything so easy.,2023-03-28,7ca148cb,Geico,customer service,positive
+Researching accident forgiveness options and considering State Farm. Still weighing my options at this point.,2023-03-31,92513620,State Farm,accident forgiveness,neutral
+USAA's customer service is a joke when it comes to home insurance. Total ripoff!,2023-03-31,706c97b8,USAA,home insurance,negative
+Been fighting with Root for 3 months over my renewal claim. They're just looking for excuses not to pay.,2023-04-02,4b2c071d,Root,renewal,negative
+Avoid Geico at all costs! Their auto insurance is terrible. They're just looking for excuses not to pay.,2023-04-02,8f5abadc,Geico,auto insurance,negative
+Researching online quotes options and considering Farmers. Wondering if there are better options out there.,2023-04-03,bfa5e510,Farmers,online quotes,neutral
+Had to file a complaint with the insurance commissioner about Travelers's bundling practices. Their agents don't seem to know their own policies.,2023-04-03,45d40d39,Travelers,bundling,negative
+I've been with USAA for 14 years and their deductibles has always been top-notch. The online portal makes everything so easy.,2023-04-07,d70fcdd9,USAA,deductibles,positive
+Finally found an insurance company that doesn't make everything difficult. Farmers's deductibles is straightforward. They really came through when I needed them.,2023-04-08,81a50342,Farmers,deductibles,positive
+Amica's customer service is a joke when it comes to online quotes. Currently shopping around for alternatives.,2023-04-10,041225ca,Amica,online quotes,negative
+Had to file a complaint with the insurance commissioner about American Family's roadside assistance practices. Will be filing a complaint with my state insurance board.,2023-04-10,77135d03,American Family,roadside assistance,negative
+Been fighting with Allstate for 2 months over my renters insurance claim. Always some fine print they try to hide behind.,2023-04-11,a14e115c,Allstate,renters insurance,negative
+Looking for feedback on Travelers for renewal. Curious about others' experiences before I commit.,2023-04-12,ecf0cd3d,Travelers,renewal,neutral
+Avoid USAA at all costs! Their renters insurance is terrible. Spent hours on hold only to get nowhere.,2023-04-13,e1eaedfa,USAA,renters insurance,negative
+Switching away from USAA after their horrible handling of my health insurance. They're just looking for excuses not to pay.,2023-04-13,13d11bd2,USAA,health insurance,negative
+Been fighting with Travelers for 8 months over my renewal claim. Total ripoff!,2023-04-15,e3deba52,Travelers,renewal,negative
+Avoid Travelers at all costs! Their mobile app is terrible. Their agents don't seem to know their own policies.,2023-04-15,ef20b4a2,Travelers,mobile app,negative
+"Just had a great experience with American Family! Their online quotes is excellent. Their mobile app is actually useful, unlike some other companies.",2023-04-19,b2596f3d,American Family,online quotes,positive
+Worst experience ever with Nationwide's premium increase. Will be filing a complaint with my state insurance board.,2023-04-22,2ff85a37,Nationwide,premium increase,negative
+Has anyone had experience with Lemonade's bundling? Any pros/cons would be helpful.,2023-04-23,9852b186,Lemonade,bundling,neutral
+Don't believe Amica's advertisements about claims process. Currently shopping around for alternatives.,2023-04-23,f0ab7776,Amica,claims process,negative
+Avoid Erie Insurance at all costs! Their health insurance is terrible. Their agents don't seem to know their own policies.,2023-04-24,74dd006c,Erie Insurance,health insurance,negative
+They denied my claim even though I've been paying for customer service coverage for years! Complete waste of time and money.,2023-04-24,af6119a5,State Farm,customer service,negative
+American Family's insurance agents is worth every penny. Will definitely be sticking with them for the foreseeable future.,2023-04-25,d926003c,American Family,insurance agents,positive
+Does Allstate offer good liability coverage for someone in California? Wondering if there are better options out there.,2023-04-25,cf9c70be,Allstate,liability coverage,neutral
+Lemonade increased my liability coverage premium by 47% for no reason! Their agents don't seem to know their own policies.,2023-04-26,df8774cc,Lemonade,liability coverage,negative
+Researching insurance agents options and considering Lemonade. Would appreciate any insights from current customers.,2023-04-27,4d56155a,Lemonade,insurance agents,neutral
+Switching away from Progressive after their horrible handling of my claims process. Would give zero stars if I could.,2023-04-27,3e4583ec,Progressive,claims process,negative
+Switching away from The Hartford after their horrible handling of my health insurance. Will be filing a complaint with my state insurance board.,2023-04-29,23f0f5b2,The Hartford,health insurance,negative
+Finally found an insurance company that doesn't make everything difficult. Allstate's policy coverage is straightforward. They really came through when I needed them.,2023-04-30,6043d448,Allstate,policy coverage,positive
+"After switching to Allstate, I'm saving 26 on my liability coverage. The online portal makes everything so easy.",2023-05-02,e098a8e0,Allstate,liability coverage,positive
+How long have you been with Lemonade for your renewal? Not sure if it's worth switching from my current provider.,2023-05-03,28b53519,Lemonade,renewal,neutral
+My agent at Nationwide went above and beyond with my discounts issue. Will definitely be sticking with them for the foreseeable future.,2023-05-04,de727f70,Nationwide,discounts,positive
+Comparing discounts between Nationwide and Erie Insurance. Curious about others' experiences before I commit.,2023-05-05,c9c8ae8b,Nationwide,discounts,neutral
+Has anyone had experience with Allstate's renters insurance? Would appreciate any insights from current customers.,2023-05-06,05405733,Allstate,renters insurance,neutral
+I've been with Progressive for 10 years and their life insurance has always been top-notch. The agent was extremely helpful and knowledgeable.,2023-05-07,a9670b39,Progressive,life insurance,positive
+Researching bundling options and considering Allstate. Trying to make sure I'm getting the best deal possible.,2023-05-07,4ec81a78,Allstate,bundling,neutral
+Has anyone had experience with The Hartford's life insurance? Just doing my research before making a decision.,2023-05-08,ff04fcea,The Hartford,life insurance,neutral
+What's the process for filing a policy coverage claim with Lemonade? Trying to make sure I'm getting the best deal possible.,2023-05-08,23b3f419,Lemonade,policy coverage,neutral
+Has anyone had experience with Root's liability coverage? Just doing my research before making a decision.,2023-05-09,59189312,Root,liability coverage,neutral
+Nationwide's customer service is a joke when it comes to customer service. Feels like they're actively trying to make things difficult.,2023-05-12,7e0b9f5d,Nationwide,customer service,negative
+"The claims process with Allstate was surprisingly smooth. Their mobile app is actually useful, unlike some other companies.",2023-05-12,57bb4e4f,Allstate,underwriting,positive
+How long have you been with USAA for your discounts? Not sure if it's worth switching from my current provider.,2023-05-14,937e3f49,USAA,discounts,neutral
+The claims process with Progressive was surprisingly smooth. The online portal makes everything so easy.,2023-05-14,c7559840,Progressive,customer service,positive
+Just had a great experience with Progressive! Their insurance agents is excellent. The agent was extremely helpful and knowledgeable.,2023-05-16,7946af02,Progressive,insurance agents,positive
+Progressive increased my accident forgiveness premium by 12% for no reason! Currently shopping around for alternatives.,2023-05-16,2980fdee,Progressive,accident forgiveness,negative
+Had to file a complaint with the insurance commissioner about Allstate's online quotes practices. Feels like they're actively trying to make things difficult.,2023-05-16,33bdb057,Allstate,online quotes,negative
+Researching home insurance options and considering Root. Still weighing my options at this point.,2023-05-16,a6d30eed,Root,home insurance,neutral
+Geico increased my renewal premium by 14% for no reason! Currently shopping around for alternatives.,2023-05-16,b5e3c895,Geico,renewal,negative
+Anyone else having issues with The Hartford's liability coverage? Complete waste of time and money.,2023-05-16,a132abba,The Hartford,liability coverage,negative
+Really impressed with USAA's customer service when dealing with my roadside assistance. They processed everything quickly and efficiently.,2023-05-18,9573ffed,USAA,roadside assistance,positive
+Has anyone had experience with Travelers's mobile app? Any pros/cons would be helpful.,2023-05-19,6fe61134,Travelers,mobile app,neutral
+Switching away from American Family after their horrible handling of my accident forgiveness. Spent hours on hold only to get nowhere.,2023-05-21,a1326444,American Family,accident forgiveness,negative
+They denied my claim even though I've been paying for auto insurance coverage for years! Feels like they're actively trying to make things difficult.,2023-05-22,9960ac0c,Farmers,auto insurance,negative
+Finally found an insurance company that doesn't make everything difficult. American Family's policy coverage is straightforward. Will definitely be sticking with them for the foreseeable future.,2023-05-23,87d00bfb,American Family,policy coverage,positive
+Switching away from Allstate after their horrible handling of my discounts. Would give zero stars if I could.,2023-05-24,9f796765,Allstate,discounts,negative
+Switching away from Progressive after their horrible handling of my premium increase. Currently shopping around for alternatives.,2023-05-24,70163dc5,Progressive,premium increase,negative
+Just had a great experience with USAA! Their accident forgiveness is excellent. They processed everything quickly and efficiently.,2023-05-27,81e22b9d,USAA,accident forgiveness,positive
+Has anyone had experience with Erie Insurance's claims process? Wondering if there are better options out there.,2023-05-27,31c662ca,Erie Insurance,claims process,neutral
+"Just had a great experience with USAA! Their renters insurance is excellent. Their mobile app is actually useful, unlike some other companies.",2023-05-27,228cd983,USAA,renters insurance,positive
+Really impressed with Farmers's customer service when dealing with my bundling. Will definitely be sticking with them for the foreseeable future.,2023-05-28,fb3763c4,Farmers,bundling,positive
+They denied my claim even though I've been paying for life insurance coverage for years! Total ripoff!,2023-05-29,fc77045b,Allstate,life insurance,negative
+The claims process with Erie Insurance was surprisingly smooth. They processed everything quickly and efficiently.,2023-05-31,c4fef4b0,Erie Insurance,liability coverage,positive
+Really impressed with American Family's customer service when dealing with my bundling. Couldn't be happier with the service.,2023-05-31,09087841,American Family,bundling,positive
+Switching away from The Hartford after their horrible handling of my customer service. Total ripoff!,2023-05-31,047a2d43,The Hartford,customer service,negative
+Erie Insurance increased my renters insurance premium by 26% for no reason! Will be filing a complaint with my state insurance board.,2023-06-01,c3282a46,Erie Insurance,renters insurance,negative
+Been fighting with Amica for 9 months over my auto insurance claim. Feels like they're actively trying to make things difficult.,2023-06-01,60678b25,Amica,auto insurance,negative
+Does Liberty Mutual offer good bundling for someone in Colorado? Trying to make sure I'm getting the best deal possible.,2023-06-03,0bd60de0,Liberty Mutual,bundling,neutral
+They denied my claim even though I've been paying for health insurance coverage for years! Currently shopping around for alternatives.,2023-06-03,8fc5b255,Liberty Mutual,health insurance,negative
+Can't recommend Travelers enough for renewal. They processed everything quickly and efficiently.,2023-06-04,73b2f97b,Travelers,renewal,positive
+How long have you been with Lemonade for your underwriting? Not sure if it's worth switching from my current provider.,2023-06-04,88e1f2a2,Lemonade,underwriting,neutral
+What's the process for filing a underwriting claim with Nationwide? Still weighing my options at this point.,2023-06-05,26cf5711,Nationwide,underwriting,neutral
+Had to file a complaint with the insurance commissioner about Lemonade's discounts practices. Total ripoff!,2023-06-05,c2bb64f4,Lemonade,discounts,negative
+"After switching to Amica, I'm saving 22 on my bundling. The agent was extremely helpful and knowledgeable.",2023-06-05,745477a2,Amica,bundling,positive
+How long have you been with Geico for your insurance agents? Would appreciate any insights from current customers.,2023-06-07,e74d9fcd,Geico,insurance agents,neutral
+Switching away from The Hartford after their horrible handling of my insurance agents. Would give zero stars if I could.,2023-06-08,be31f9b5,The Hartford,insurance agents,negative
+Been fighting with Erie Insurance for 7 months over my liability coverage claim. Would give zero stars if I could.,2023-06-08,58511f78,Erie Insurance,liability coverage,negative
+They denied my claim even though I've been paying for insurance agents coverage for years! Would give zero stars if I could.,2023-06-08,e95e0040,Travelers,insurance agents,negative
+Just got a quote from Progressive for claims process. Not sure what to think yet. Trying to make sure I'm getting the best deal possible.,2023-06-10,f2bc58fc,Progressive,claims process,neutral
+Don't believe USAA's advertisements about roadside assistance. Spent hours on hold only to get nowhere.,2023-06-11,d47d7ecd,USAA,roadside assistance,negative
+Been fighting with Liberty Mutual for 5 months over my discounts claim. Will be filing a complaint with my state insurance board.,2023-06-12,3e917445,Liberty Mutual,discounts,negative
+Researching accident forgiveness options and considering Travelers. Has anyone had a similar experience?,2023-06-14,1c75df8b,Travelers,accident forgiveness,neutral
+Can't recommend Travelers enough for bundling. Will definitely be sticking with them for the foreseeable future.,2023-06-14,4dd1bfa2,Travelers,bundling,positive
+Finally found an insurance company that doesn't make everything difficult. Geico's premium increase is straightforward. The online portal makes everything so easy.,2023-06-17,738ab24c,Geico,premium increase,positive
+Avoid State Farm at all costs! Their mobile app is terrible. Feels like they're actively trying to make things difficult.,2023-06-17,c40c618f,State Farm,mobile app,negative
+Anyone know if USAA will increase life insurance rates after a minor fire? What's been your experience with them?,2023-06-17,5d5cae5b,USAA,life insurance,neutral
+Been fighting with Geico for 11 months over my accident forgiveness claim. Feels like they're actively trying to make things difficult.,2023-06-19,af14f0b7,Geico,accident forgiveness,negative
+Switching away from Allstate after their horrible handling of my renters insurance. Total ripoff!,2023-06-19,d4abf774,Allstate,renters insurance,negative
+Avoid Root at all costs! Their premium increase is terrible. Spent hours on hold only to get nowhere.,2023-06-20,ba0ef3b8,Root,premium increase,negative
+Root increased my liability coverage premium by 37% for no reason! Feels like they're actively trying to make things difficult.,2023-06-23,e93a0ff5,Root,liability coverage,negative
+Had to file a complaint with the insurance commissioner about Geico's health insurance practices. Their agents don't seem to know their own policies.,2023-06-23,198f813a,Geico,health insurance,negative
+"After switching to Geico, I'm saving 49 on my bundling. The agent was extremely helpful and knowledgeable.",2023-06-24,d36e2cdf,Geico,bundling,positive
+Worst experience ever with Farmers's renewal. Feels like they're actively trying to make things difficult.,2023-06-24,8ff12c05,Farmers,renewal,negative
+Liberty Mutual's customer service is a joke when it comes to online quotes. Spent hours on hold only to get nowhere.,2023-06-25,4649a5c6,Liberty Mutual,online quotes,negative
+"Really impressed with Amica's customer service when dealing with my discounts. The whole process was painless, which I wasn't expecting!",2023-06-26,1e8c7b48,Amica,discounts,positive
+Had to file a complaint with the insurance commissioner about Geico's online quotes practices. Would give zero stars if I could.,2023-06-26,c456e29c,Geico,online quotes,negative
+New policy with Amica starts next month. Any tips regarding their customer service? Wondering if there are better options out there.,2023-06-27,b513feab,Amica,customer service,neutral
+Has anyone had experience with Root's accident forgiveness? Has anyone had a similar experience?,2023-06-27,ec02eaec,Root,accident forgiveness,neutral
+Can't recommend Travelers enough for accident forgiveness. Couldn't be happier with the service.,2023-06-28,c2f8eef3,Travelers,accident forgiveness,positive
+New policy with Liberty Mutual starts next month. Any tips regarding their life insurance? Curious about others' experiences before I commit.,2023-06-29,d5b15873,Liberty Mutual,life insurance,neutral
+Been fighting with Allstate for 6 months over my premium increase claim. Their agents don't seem to know their own policies.,2023-06-29,3bb59477,Allstate,premium increase,negative
+Anyone else having issues with USAA's renters insurance? Feels like they're actively trying to make things difficult.,2023-06-30,d3b8f69f,USAA,renters insurance,negative
+Can't recommend State Farm enough for mobile app. Couldn't be happier with the service.,2023-07-04,9c4557d6,State Farm,mobile app,positive
+Comparing deductibles between Amica and Farmers. Curious about others' experiences before I commit.,2023-07-04,3ca6733c,Amica,deductibles,neutral
+Just had a great experience with Amica! Their liability coverage is excellent. They really came through when I needed them.,2023-07-05,2f10438c,Amica,liability coverage,positive
+They denied my claim even though I've been paying for accident forgiveness coverage for years! Total ripoff!,2023-07-05,aaf4b166,Root,accident forgiveness,negative
+Switching away from Amica after their horrible handling of my discounts. Feels like they're actively trying to make things difficult.,2023-07-06,654e7baa,Amica,discounts,negative
+Switching away from Allstate after their horrible handling of my liability coverage. They're just looking for excuses not to pay.,2023-07-07,aae331b9,Allstate,liability coverage,negative
+Avoid State Farm at all costs! Their accident forgiveness is terrible. They're just looking for excuses not to pay.,2023-07-09,023cb6c7,State Farm,accident forgiveness,negative
+"After switching to Root, I'm saving 36 on my insurance agents. The whole process was painless, which I wasn't expecting!",2023-07-11,115709eb,Root,insurance agents,positive
+USAA's customer service is worth every penny. They really came through when I needed them.,2023-07-11,45a55a97,USAA,customer service,positive
+Been fighting with Allstate for 6 months over my accident forgiveness claim. Would give zero stars if I could.,2023-07-11,d0cea10f,Allstate,accident forgiveness,negative
+The claims process with Root was surprisingly smooth. It was refreshing to deal with people who genuinely wanted to help.,2023-07-12,6ac6d689,Root,online quotes,positive
+Can't recommend Allstate enough for auto insurance. Highly recommend!,2023-07-12,c48bbbd4,Allstate,auto insurance,positive
+USAA's accident forgiveness is worth every penny. Will definitely be sticking with them for the foreseeable future.,2023-07-13,29e441b7,USAA,accident forgiveness,positive
+"After switching to State Farm, I'm saving 49 on my mobile app. The whole process was painless, which I wasn't expecting!",2023-07-14,5526d96b,State Farm,mobile app,positive
+Geico increased my customer service premium by 15% for no reason! Would give zero stars if I could.,2023-07-14,49d5358c,Geico,customer service,negative
+Avoid Root at all costs! Their health insurance is terrible. Feels like they're actively trying to make things difficult.,2023-07-15,82ddd92a,Root,health insurance,negative
+Anyone else having issues with The Hartford's claims process? Their agents don't seem to know their own policies.,2023-07-16,19e2592e,The Hartford,claims process,negative
+Allstate's deductibles is worth every penny. They processed everything quickly and efficiently.,2023-07-16,f7c25dc0,Allstate,deductibles,positive
+"After switching to Allstate, I'm saving 16 on my renters insurance. Highly recommend!",2023-07-17,82c87489,Allstate,renters insurance,positive
+Really impressed with Allstate's customer service when dealing with my mobile app. It was refreshing to deal with people who genuinely wanted to help.,2023-07-17,b69e8178,Allstate,mobile app,positive
+Avoid Root at all costs! Their deductibles is terrible. Will be filing a complaint with my state insurance board.,2023-07-17,c1e68943,Root,deductibles,negative
+I've been with USAA for 3 years and their deductibles has always been top-notch. The online portal makes everything so easy.,2023-07-17,d28f474c,USAA,deductibles,positive
+The claims process with Travelers was surprisingly smooth. It was refreshing to deal with people who genuinely wanted to help.,2023-07-18,b41a5feb,Travelers,renewal,positive
+Does Erie Insurance offer good bundling for someone in California? Wondering if there are better options out there.,2023-07-18,e8575b8e,Erie Insurance,bundling,neutral
+Been fighting with Nationwide for 9 months over my renewal claim. They're just looking for excuses not to pay.,2023-07-18,22c713b2,Nationwide,renewal,negative
+Don't believe Erie Insurance's advertisements about customer service. Total ripoff!,2023-07-19,a1f9aa6d,Erie Insurance,customer service,negative
+The Hartford's customer service is a joke when it comes to bundling. Complete waste of time and money.,2023-07-20,ccb4567b,The Hartford,bundling,negative
+"Allstate's accident forgiveness is worth every penny. Their mobile app is actually useful, unlike some other companies.",2023-07-20,5be046e9,Allstate,accident forgiveness,positive
+Don't believe Lemonade's advertisements about policy coverage. Feels like they're actively trying to make things difficult.,2023-07-22,d962c5c7,Lemonade,policy coverage,negative
+Avoid Allstate at all costs! Their life insurance is terrible. Spent hours on hold only to get nowhere.,2023-07-23,664fd9a9,Allstate,life insurance,negative
+Just got a quote from Root for insurance agents. Not sure what to think yet. Still weighing my options at this point.,2023-07-25,3f2910d0,Root,insurance agents,neutral
+"I've been with Farmers for 9 years and their deductibles has always been top-notch. The whole process was painless, which I wasn't expecting!",2023-07-25,db5cd820,Farmers,deductibles,positive
+My agent at State Farm went above and beyond with my claims process issue. They processed everything quickly and efficiently.,2023-07-26,753e1109,State Farm,claims process,positive
+Avoid Lemonade at all costs! Their premium increase is terrible. Currently shopping around for alternatives.,2023-07-28,f651b8ec,Lemonade,premium increase,negative
+Just had a great experience with Progressive! Their policy coverage is excellent. The online portal makes everything so easy.,2023-07-28,2feb060d,Progressive,policy coverage,positive
+"Just had a great experience with American Family! Their life insurance is excellent. Their mobile app is actually useful, unlike some other companies.",2023-07-29,661fc077,American Family,life insurance,positive
+Allstate increased my roadside assistance premium by 19% for no reason! Spent hours on hold only to get nowhere.,2023-07-30,d1b12c87,Allstate,roadside assistance,negative
+Had to file a complaint with the insurance commissioner about Erie Insurance's claims process practices. Would give zero stars if I could.,2023-08-02,ec5f0585,Erie Insurance,claims process,negative
+Switching away from Amica after their horrible handling of my underwriting. Feels like they're actively trying to make things difficult.,2023-08-03,8bfdbe24,Amica,underwriting,negative
+Avoid USAA at all costs! Their online quotes is terrible. Spent hours on hold only to get nowhere.,2023-08-03,778e24d4,USAA,online quotes,negative
+Looking for feedback on State Farm for liability coverage. Wondering if there are better options out there.,2023-08-03,38625863,State Farm,liability coverage,neutral
+Avoid Liberty Mutual at all costs! Their life insurance is terrible. They're just looking for excuses not to pay.,2023-08-03,7377dfc0,Liberty Mutual,life insurance,negative
+Been fighting with State Farm for 9 months over my mobile app claim. Spent hours on hold only to get nowhere.,2023-08-04,4bd401e3,State Farm,mobile app,negative
+Comparing auto insurance between American Family and Root. Not sure if it's worth switching from my current provider.,2023-08-05,0fad6a34,American Family,auto insurance,neutral
+Looking for feedback on The Hartford for policy coverage. Has anyone had a similar experience?,2023-08-06,2af46c39,The Hartford,policy coverage,neutral
+Switching away from Geico after their horrible handling of my accident forgiveness. Feels like they're actively trying to make things difficult.,2023-08-07,a9ad874b,Geico,accident forgiveness,negative
+"Just had a great experience with State Farm! Their claims process is excellent. Their mobile app is actually useful, unlike some other companies.",2023-08-07,6af09b23,State Farm,claims process,positive
+Worst experience ever with Progressive's mobile app. Complete waste of time and money.,2023-08-08,29e3708a,Progressive,mobile app,negative
+Avoid Geico at all costs! Their roadside assistance is terrible. Total ripoff!,2023-08-08,7c077bdf,Geico,roadside assistance,negative
+Don't believe Root's advertisements about discounts. They're just looking for excuses not to pay.,2023-08-12,751ac3f8,Root,discounts,negative
+New policy with Liberty Mutual starts next month. Any tips regarding their home insurance? Just doing my research before making a decision.,2023-08-13,a2e07f10,Liberty Mutual,home insurance,neutral
+Researching accident forgiveness options and considering Amica. Curious about others' experiences before I commit.,2023-08-13,30e7ae51,Amica,accident forgiveness,neutral
+"After switching to Root, I'm saving 41 on my policy coverage. The online portal makes everything so easy.",2023-08-14,ce43b41d,Root,policy coverage,positive
+My agent at Nationwide went above and beyond with my mobile app issue. Couldn't be happier with the service.,2023-08-15,0feead7b,Nationwide,mobile app,positive
+Just got a quote from Erie Insurance for deductibles. Not sure what to think yet. Has anyone had a similar experience?,2023-08-15,b5d04735,Erie Insurance,deductibles,neutral
+I've been with Allstate for 4 years and their discounts has always been top-notch. Couldn't be happier with the service.,2023-08-16,2477d817,Allstate,discounts,positive
+Worst experience ever with Travelers's deductibles. Their agents don't seem to know their own policies.,2023-08-17,78f91b6b,Travelers,deductibles,negative
+"I've been with Allstate for 3 years and their deductibles has always been top-notch. Their mobile app is actually useful, unlike some other companies.",2023-08-17,fbe79d75,Allstate,deductibles,positive
+Anyone else having issues with Root's underwriting? Their agents don't seem to know their own policies.,2023-08-19,d2b4ccc7,Root,underwriting,negative
+I've been with American Family for 7 years and their accident forgiveness has always been top-notch. Highly recommend!,2023-08-19,505a62ec,American Family,accident forgiveness,positive
+Had to file a complaint with the insurance commissioner about Travelers's mobile app practices. Would give zero stars if I could.,2023-08-19,6e3076ee,Travelers,mobile app,negative
+Had to file a complaint with the insurance commissioner about American Family's accident forgiveness practices. Will be filing a complaint with my state insurance board.,2023-08-19,c7bbfd93,American Family,accident forgiveness,negative
+Really impressed with Travelers's customer service when dealing with my renters insurance. Couldn't be happier with the service.,2023-08-20,cf6e35eb,Travelers,renters insurance,positive
+Can't recommend Nationwide enough for deductibles. They processed everything quickly and efficiently.,2023-08-20,b7682b02,Nationwide,deductibles,positive
+"Finally found an insurance company that doesn't make everything difficult. Root's claims process is straightforward. Their mobile app is actually useful, unlike some other companies.",2023-08-21,52ac18bd,Root,claims process,positive
+Lemonade increased my roadside assistance premium by 39% for no reason! Feels like they're actively trying to make things difficult.,2023-08-22,0832a906,Lemonade,roadside assistance,negative
+Anyone else having issues with State Farm's renewal? Spent hours on hold only to get nowhere.,2023-08-23,4553e1d1,State Farm,renewal,negative
+Allstate's customer service is a joke when it comes to deductibles. Their agents don't seem to know their own policies.,2023-08-23,6073d81c,Allstate,deductibles,negative
+Can't recommend Liberty Mutual enough for auto insurance. Couldn't be happier with the service.,2023-08-25,33e452c9,Liberty Mutual,auto insurance,positive
+They denied my claim even though I've been paying for life insurance coverage for years! Currently shopping around for alternatives.,2023-08-25,902c403b,Liberty Mutual,life insurance,negative
+Really impressed with Liberty Mutual's customer service when dealing with my renters insurance. Will definitely be sticking with them for the foreseeable future.,2023-08-26,2304280f,Liberty Mutual,renters insurance,positive
+The claims process with Allstate was surprisingly smooth. The online portal makes everything so easy.,2023-08-26,0b9f84ca,Allstate,discounts,positive
+Worst experience ever with The Hartford's auto insurance. Currently shopping around for alternatives.,2023-08-26,335502eb,The Hartford,auto insurance,negative
+Erie Insurance came through for me after my break-in. Their premium increase coverage was exactly what I needed. It was refreshing to deal with people who genuinely wanted to help.,2023-08-28,4db326b6,Erie Insurance,premium increase,positive
+Anyone know if Nationwide will increase life insurance rates after a minor hail damage? Just doing my research before making a decision.,2023-08-31,39f6f5bf,Nationwide,life insurance,neutral
+New policy with The Hartford starts next month. Any tips regarding their premium increase? Would appreciate any insights from current customers.,2023-08-31,42d4fb16,The Hartford,premium increase,neutral
+"After switching to Liberty Mutual, I'm saving 18 on my bundling. They really came through when I needed them.",2023-08-31,cfe373b2,Liberty Mutual,bundling,positive
+"After switching to The Hartford, I'm saving 23 on my deductibles. The whole process was painless, which I wasn't expecting!",2023-09-01,113f622e,The Hartford,deductibles,positive
+Anyone know if Root will increase accident forgiveness rates after a minor theft? Still weighing my options at this point.,2023-09-01,d08881a4,Root,accident forgiveness,neutral
+The Hartford increased my health insurance premium by 20% for no reason! Will be filing a complaint with my state insurance board.,2023-09-02,6825a4c9,The Hartford,health insurance,negative
+Switching away from Farmers after their horrible handling of my auto insurance. Their agents don't seem to know their own policies.,2023-09-05,8f399d0f,Farmers,auto insurance,negative
+Comparing deductibles between The Hartford and Erie Insurance. Not sure if it's worth switching from my current provider.,2023-09-07,a96fb9a6,The Hartford,deductibles,neutral
+American Family came through for me after my hail damage. Their online quotes coverage was exactly what I needed. The agent was extremely helpful and knowledgeable.,2023-09-07,38eb1b2f,American Family,online quotes,positive
+Don't believe Travelers's advertisements about bundling. Will be filing a complaint with my state insurance board.,2023-09-08,8aae0b11,Travelers,bundling,negative
+Just got a quote from Amica for bundling. Not sure what to think yet. Wondering if there are better options out there.,2023-09-08,1ce23b40,Amica,bundling,neutral
+American Family's customer service is a joke when it comes to discounts. Complete waste of time and money.,2023-09-10,416464e6,American Family,discounts,negative
+New policy with Travelers starts next month. Any tips regarding their accident forgiveness? Has anyone had a similar experience?,2023-09-11,7f0c5266,Travelers,accident forgiveness,neutral
+American Family came through for me after my fender bender. Their renters insurance coverage was exactly what I needed. It was refreshing to deal with people who genuinely wanted to help.,2023-09-11,5a7622a8,American Family,renters insurance,positive
+Root's customer service is a joke when it comes to premium increase. Currently shopping around for alternatives.,2023-09-12,ce078d31,Root,premium increase,negative
+Has anyone had experience with Progressive's deductibles? Just doing my research before making a decision.,2023-09-12,fba8b15c,Progressive,deductibles,neutral
+Looking for feedback on Geico for home insurance. What's been your experience with them?,2023-09-12,2473d5b0,Geico,home insurance,neutral
+Switching away from Lemonade after their horrible handling of my roadside assistance. Their agents don't seem to know their own policies.,2023-09-14,a55a72d0,Lemonade,roadside assistance,negative
+Worst experience ever with American Family's claims process. Currently shopping around for alternatives.,2023-09-15,49a5fe48,American Family,claims process,negative
+Don't believe USAA's advertisements about liability coverage. Feels like they're actively trying to make things difficult.,2023-09-15,ac57936b,USAA,liability coverage,negative
+"Travelers came through for me after my theft. Their insurance agents coverage was exactly what I needed. The whole process was painless, which I wasn't expecting!",2023-09-16,852b84df,Travelers,insurance agents,positive
+Finally found an insurance company that doesn't make everything difficult. American Family's deductibles is straightforward. The agent was extremely helpful and knowledgeable.,2023-09-16,b90f9c70,American Family,deductibles,positive
+Worst experience ever with Liberty Mutual's renewal. Their agents don't seem to know their own policies.,2023-09-16,d2e9e148,Liberty Mutual,renewal,negative
+Liberty Mutual increased my claims process premium by 26% for no reason! They're just looking for excuses not to pay.,2023-09-17,fa7d113c,Liberty Mutual,claims process,negative
+Avoid Travelers at all costs! Their auto insurance is terrible. Their agents don't seem to know their own policies.,2023-09-18,1c2db279,Travelers,auto insurance,negative
+Don't believe Liberty Mutual's advertisements about underwriting. They're just looking for excuses not to pay.,2023-09-18,c586f871,Liberty Mutual,underwriting,negative
+American Family's customer service is a joke when it comes to premium increase. Feels like they're actively trying to make things difficult.,2023-09-21,cf40bce5,American Family,premium increase,negative
+Avoid Geico at all costs! Their deductibles is terrible. Complete waste of time and money.,2023-09-21,343b452f,Geico,deductibles,negative
+Had to file a complaint with the insurance commissioner about Nationwide's premium increase practices. Their agents don't seem to know their own policies.,2023-09-21,28de9503,Nationwide,premium increase,negative
+"Finally found an insurance company that doesn't make everything difficult. Progressive's deductibles is straightforward. Their mobile app is actually useful, unlike some other companies.",2023-09-21,045fb3fa,Progressive,deductibles,positive
+What's the process for filing a life insurance claim with Lemonade? Would appreciate any insights from current customers.,2023-09-22,d5edb6d5,Lemonade,life insurance,neutral
+Worst experience ever with State Farm's health insurance. Currently shopping around for alternatives.,2023-09-22,67287899,State Farm,health insurance,negative
+Don't believe Erie Insurance's advertisements about underwriting. Always some fine print they try to hide behind.,2023-09-23,81ac99d2,Erie Insurance,underwriting,negative
+Looking for feedback on Nationwide for health insurance. What's been your experience with them?,2023-09-25,de757cc2,Nationwide,health insurance,neutral
+Had to file a complaint with the insurance commissioner about American Family's mobile app practices. Total ripoff!,2023-09-25,1bca639a,American Family,mobile app,negative
+"Finally found an insurance company that doesn't make everything difficult. Root's discounts is straightforward. Their mobile app is actually useful, unlike some other companies.",2023-09-27,a3947e43,Root,discounts,positive
+Anyone else having issues with Root's deductibles? Would give zero stars if I could.,2023-09-29,91263f4d,Root,deductibles,negative
+"Finally found an insurance company that doesn't make everything difficult. USAA's online quotes is straightforward. The whole process was painless, which I wasn't expecting!",2023-09-30,61af277b,USAA,online quotes,positive
+Root's customer service is a joke when it comes to renewal. Always some fine print they try to hide behind.,2023-09-30,ee8a0961,Root,renewal,negative
+"Really impressed with The Hartford's customer service when dealing with my customer service. The whole process was painless, which I wasn't expecting!",2023-10-02,0beb81b9,The Hartford,customer service,positive
+"After switching to Farmers, I'm saving 17 on my renewal. They really came through when I needed them.",2023-10-02,98758b44,Farmers,renewal,positive
+Does Root offer good accident forgiveness for someone in Florida? Trying to make sure I'm getting the best deal possible.,2023-10-04,99c452ed,Root,accident forgiveness,neutral
+Anyone else having issues with The Hartford's deductibles? Will be filing a complaint with my state insurance board.,2023-10-05,4fc2e727,The Hartford,deductibles,negative
+Anyone else having issues with State Farm's renewal? Feels like they're actively trying to make things difficult.,2023-10-06,36a1449c,State Farm,renewal,negative
+Just got a quote from Nationwide for underwriting. Not sure what to think yet. Would appreciate any insights from current customers.,2023-10-11,5806412d,Nationwide,underwriting,neutral
+"Really impressed with Erie Insurance's customer service when dealing with my mobile app. The whole process was painless, which I wasn't expecting!",2023-10-12,5313c84d,Erie Insurance,mobile app,positive
+Anyone else having issues with Liberty Mutual's home insurance? Feels like they're actively trying to make things difficult.,2023-10-12,3d1df9f1,Liberty Mutual,home insurance,negative
+Been fighting with Nationwide for 5 months over my underwriting claim. Would give zero stars if I could.,2023-10-14,7116bdb6,Nationwide,underwriting,negative
+"Amica came through for me after my fender bender. Their claims process coverage was exactly what I needed. The whole process was painless, which I wasn't expecting!",2023-10-14,e3c40d34,Amica,claims process,positive
+Researching insurance agents options and considering Root. What's been your experience with them?,2023-10-15,ffcc4438,Root,insurance agents,neutral
+Finally found an insurance company that doesn't make everything difficult. Allstate's renewal is straightforward. They really came through when I needed them.,2023-10-17,7e4847a5,Allstate,renewal,positive
+Researching deductibles options and considering Nationwide. Trying to make sure I'm getting the best deal possible.,2023-10-17,9a027c96,Nationwide,deductibles,neutral
+Worst experience ever with Progressive's underwriting. Always some fine print they try to hide behind.,2023-10-18,bec1ed2d,Progressive,underwriting,negative
+Anyone know if Progressive will increase online quotes rates after a minor flood? Has anyone had a similar experience?,2023-10-18,a191dd28,Progressive,online quotes,neutral
+Avoid Allstate at all costs! Their home insurance is terrible. Spent hours on hold only to get nowhere.,2023-10-18,c8542eb7,Allstate,home insurance,negative
+What's the process for filing a mobile app claim with Travelers? What's been your experience with them?,2023-10-19,cf812a4c,Travelers,mobile app,neutral
+My agent at American Family went above and beyond with my health insurance issue. They processed everything quickly and efficiently.,2023-10-20,8f6b59ea,American Family,health insurance,positive
+Does Nationwide offer good discounts for someone in California? What's been your experience with them?,2023-10-20,bcb01f34,Nationwide,discounts,neutral
+Erie Insurance increased my liability coverage premium by 36% for no reason! Will be filing a complaint with my state insurance board.,2023-10-20,6ead879a,Erie Insurance,liability coverage,negative
+Don't believe Geico's advertisements about online quotes. Will be filing a complaint with my state insurance board.,2023-10-21,b2091b48,Geico,online quotes,negative
+Researching home insurance options and considering State Farm. Any pros/cons would be helpful.,2023-10-22,d6edbbd9,State Farm,home insurance,neutral
+Switching away from Amica after their horrible handling of my bundling. Will be filing a complaint with my state insurance board.,2023-10-22,49f41156,Amica,bundling,negative
+Looking for feedback on Amica for auto insurance. Still weighing my options at this point.,2023-10-24,9466253f,Amica,auto insurance,neutral
+Has anyone had experience with American Family's policy coverage? Would appreciate any insights from current customers.,2023-10-26,b21c8b57,American Family,policy coverage,neutral
+Looking for feedback on Geico for customer service. Just doing my research before making a decision.,2023-10-26,23f058e4,Geico,customer service,neutral
+Researching premium increase options and considering Nationwide. What's been your experience with them?,2023-10-27,96b28956,Nationwide,premium increase,neutral
+Erie Insurance increased my auto insurance premium by 17% for no reason! Their agents don't seem to know their own policies.,2023-10-27,62eef2a9,Erie Insurance,auto insurance,negative
+Anyone else having issues with Travelers's policy coverage? Complete waste of time and money.,2023-10-28,0fada629,Travelers,policy coverage,negative
+Anyone know if Farmers will increase liability coverage rates after a minor accident? Would appreciate any insights from current customers.,2023-10-28,d3eeedc1,Farmers,liability coverage,neutral
+They denied my claim even though I've been paying for roadside assistance coverage for years! Total ripoff!,2023-10-29,16909330,Nationwide,roadside assistance,negative
+Anyone else having issues with Amica's roadside assistance? Feels like they're actively trying to make things difficult.,2023-10-31,3cfafe81,Amica,roadside assistance,negative
+"After switching to Lemonade, I'm saving 39 on my life insurance. The whole process was painless, which I wasn't expecting!",2023-11-01,6da18c12,Lemonade,life insurance,positive
+"After switching to The Hartford, I'm saving 14 on my policy coverage. The online portal makes everything so easy.",2023-11-01,8d929afe,The Hartford,policy coverage,positive
+"Finally found an insurance company that doesn't make everything difficult. Root's auto insurance is straightforward. Their mobile app is actually useful, unlike some other companies.",2023-11-02,394ab5d7,Root,auto insurance,positive
+I've been with Allstate for 3 years and their life insurance has always been top-notch. It was refreshing to deal with people who genuinely wanted to help.,2023-11-02,57b98a3d,Allstate,life insurance,positive
+My agent at Root went above and beyond with my accident forgiveness issue. The agent was extremely helpful and knowledgeable.,2023-11-02,9a2f0025,Root,accident forgiveness,positive
+Had to file a complaint with the insurance commissioner about USAA's home insurance practices. Complete waste of time and money.,2023-11-04,fe54a806,USAA,home insurance,negative
+State Farm's roadside assistance is worth every penny. It was refreshing to deal with people who genuinely wanted to help.,2023-11-04,d36107b4,State Farm,roadside assistance,positive
+They denied my claim even though I've been paying for health insurance coverage for years! They're just looking for excuses not to pay.,2023-11-05,ae19563a,USAA,health insurance,negative
+Progressive's customer service is a joke when it comes to deductibles. Always some fine print they try to hide behind.,2023-11-06,cd9437e2,Progressive,deductibles,negative
+"Finally found an insurance company that doesn't make everything difficult. Travelers's deductibles is straightforward. The whole process was painless, which I wasn't expecting!",2023-11-06,f444e447,Travelers,deductibles,positive
+Anyone know if Geico will increase renters insurance rates after a minor theft? Not sure if it's worth switching from my current provider.,2023-11-07,2d0bc757,Geico,renters insurance,neutral
+Anyone else having issues with Travelers's auto insurance? Complete waste of time and money.,2023-11-07,1e783988,Travelers,auto insurance,negative
+The claims process with Progressive was surprisingly smooth. Couldn't be happier with the service.,2023-11-08,133c8ec0,Progressive,insurance agents,positive
+Anyone else having issues with USAA's roadside assistance? Their agents don't seem to know their own policies.,2023-11-09,2bf7cb85,USAA,roadside assistance,negative
+Switching away from State Farm after their horrible handling of my customer service. Currently shopping around for alternatives.,2023-11-10,a36e0829,State Farm,customer service,negative
+Worst experience ever with Farmers's underwriting. Always some fine print they try to hide behind.,2023-11-10,74b7c3ca,Farmers,underwriting,negative
+USAA came through for me after my fire. Their policy coverage coverage was exactly what I needed. It was refreshing to deal with people who genuinely wanted to help.,2023-11-11,c0c24934,USAA,policy coverage,positive
+Anyone else having issues with Progressive's roadside assistance? Always some fine print they try to hide behind.,2023-11-11,e2bcee5f,Progressive,roadside assistance,negative
+Travelers's customer service is a joke when it comes to premium increase. They're just looking for excuses not to pay.,2023-11-12,cc3679cd,Travelers,premium increase,negative
+New policy with State Farm starts next month. Any tips regarding their health insurance? Would appreciate any insights from current customers.,2023-11-13,08525095,State Farm,health insurance,neutral
+Really impressed with American Family's customer service when dealing with my claims process. It was refreshing to deal with people who genuinely wanted to help.,2023-11-14,c46d9f8a,American Family,claims process,positive
+Root increased my home insurance premium by 20% for no reason! Will be filing a complaint with my state insurance board.,2023-11-15,d041e0b7,Root,home insurance,negative
+"After switching to Amica, I'm saving 43 on my auto insurance. Highly recommend!",2023-11-17,4236a6be,Amica,auto insurance,positive
+How long have you been with Lemonade for your renters insurance? Trying to make sure I'm getting the best deal possible.,2023-11-17,52498455,Lemonade,renters insurance,neutral
+Looking for feedback on Erie Insurance for customer service. Still weighing my options at this point.,2023-11-20,32586818,Erie Insurance,customer service,neutral
+They denied my claim even though I've been paying for deductibles coverage for years! Always some fine print they try to hide behind.,2023-11-22,ba8f3f18,State Farm,deductibles,negative
+Avoid State Farm at all costs! Their mobile app is terrible. They're just looking for excuses not to pay.,2023-11-23,5f83391c,State Farm,mobile app,negative
+Comparing policy coverage between Geico and Allstate. Still weighing my options at this point.,2023-11-23,a7f0e7bc,Geico,policy coverage,neutral
+Lemonade came through for me after my flood. Their liability coverage coverage was exactly what I needed. The online portal makes everything so easy.,2023-11-24,33b3d7f2,Lemonade,liability coverage,positive
+I've been with Progressive for 8 years and their bundling has always been top-notch. They really came through when I needed them.,2023-11-26,059bc243,Progressive,bundling,positive
+Anyone else having issues with Travelers's home insurance? Feels like they're actively trying to make things difficult.,2023-11-27,b539cae0,Travelers,home insurance,negative
+The claims process with Amica was surprisingly smooth. The agent was extremely helpful and knowledgeable.,2023-11-28,94b8d1ed,Amica,bundling,positive
+Comparing bundling between Liberty Mutual and State Farm. Any pros/cons would be helpful.,2023-12-02,ece64a75,Liberty Mutual,bundling,neutral
+Comparing life insurance between Nationwide and Travelers. Not sure if it's worth switching from my current provider.,2023-12-02,d1212f88,Nationwide,life insurance,neutral
+"After switching to Lemonade, I'm saving 30 on my renewal. Highly recommend!",2023-12-02,a2b11f55,Lemonade,renewal,positive
+Been fighting with The Hartford for 11 months over my bundling claim. They're just looking for excuses not to pay.,2023-12-03,7d75da2f,The Hartford,bundling,negative
+The claims process with Amica was surprisingly smooth. They processed everything quickly and efficiently.,2023-12-03,73491e8f,Amica,liability coverage,positive
+Finally found an insurance company that doesn't make everything difficult. State Farm's bundling is straightforward. The agent was extremely helpful and knowledgeable.,2023-12-04,56a0724a,State Farm,bundling,positive
+I've been with Allstate for 10 years and their renewal has always been top-notch. Highly recommend!,2023-12-04,15629173,Allstate,renewal,positive
+Had to file a complaint with the insurance commissioner about Nationwide's insurance agents practices. Complete waste of time and money.,2023-12-05,27c01417,Nationwide,insurance agents,negative
+Anyone know if USAA will increase renewal rates after a minor hail damage? Trying to make sure I'm getting the best deal possible.,2023-12-05,823fca97,USAA,renewal,neutral
+My agent at The Hartford went above and beyond with my premium increase issue. Couldn't be happier with the service.,2023-12-05,7b3e8d6e,The Hartford,premium increase,positive
+Switching away from Lemonade after their horrible handling of my home insurance. Always some fine print they try to hide behind.,2023-12-06,b18d7d99,Lemonade,home insurance,negative
+Really impressed with Geico's customer service when dealing with my liability coverage. Couldn't be happier with the service.,2023-12-07,b0d7850a,Geico,liability coverage,positive
+Had to file a complaint with the insurance commissioner about The Hartford's claims process practices. Spent hours on hold only to get nowhere.,2023-12-07,fb1c5675,The Hartford,claims process,negative
+Had to file a complaint with the insurance commissioner about Lemonade's health insurance practices. Their agents don't seem to know their own policies.,2023-12-08,d2f84fed,Lemonade,health insurance,negative
+Just got a quote from USAA for auto insurance. Not sure what to think yet. Still weighing my options at this point.,2023-12-09,6e810910,USAA,auto insurance,neutral
+Don't believe Progressive's advertisements about claims process. They're just looking for excuses not to pay.,2023-12-10,8c3032cf,Progressive,claims process,negative
+"Finally found an insurance company that doesn't make everything difficult. Farmers's bundling is straightforward. Their mobile app is actually useful, unlike some other companies.",2023-12-10,2056d102,Farmers,bundling,positive
+They denied my claim even though I've been paying for roadside assistance coverage for years! Would give zero stars if I could.,2023-12-11,1868a367,USAA,roadside assistance,negative
+Lemonade increased my insurance agents premium by 22% for no reason! Feels like they're actively trying to make things difficult.,2023-12-11,411797a0,Lemonade,insurance agents,negative
+Just got a quote from Liberty Mutual for online quotes. Not sure what to think yet. Still weighing my options at this point.,2023-12-13,94c2c1a1,Liberty Mutual,online quotes,neutral
+Had to file a complaint with the insurance commissioner about USAA's discounts practices. Would give zero stars if I could.,2023-12-13,d2931663,USAA,discounts,negative
+Worst experience ever with Progressive's renewal. Always some fine print they try to hide behind.,2023-12-13,f2b1a61b,Progressive,renewal,negative
+Switching away from Progressive after their horrible handling of my insurance agents. Always some fine print they try to hide behind.,2023-12-14,874a8710,Progressive,insurance agents,negative
+Geico came through for me after my break-in. Their premium increase coverage was exactly what I needed. Couldn't be happier with the service.,2023-12-15,12b79860,Geico,premium increase,positive
+Has anyone had experience with State Farm's insurance agents? Would appreciate any insights from current customers.,2023-12-16,122e89c4,State Farm,insurance agents,neutral
+Progressive increased my liability coverage premium by 50% for no reason! Spent hours on hold only to get nowhere.,2023-12-17,611ee8e7,Progressive,liability coverage,negative
+My agent at The Hartford went above and beyond with my insurance agents issue. The online portal makes everything so easy.,2023-12-17,6aa0452f,The Hartford,insurance agents,positive
+Allstate increased my online quotes premium by 11% for no reason! Currently shopping around for alternatives.,2023-12-17,c5857bf0,Allstate,online quotes,negative
+Amica's customer service is a joke when it comes to auto insurance. Complete waste of time and money.,2023-12-18,392a122f,Amica,auto insurance,negative
+How long have you been with Root for your liability coverage? Not sure if it's worth switching from my current provider.,2023-12-18,6e308ef1,Root,liability coverage,neutral
+Just had a great experience with Liberty Mutual! Their roadside assistance is excellent. It was refreshing to deal with people who genuinely wanted to help.,2023-12-18,63922457,Liberty Mutual,roadside assistance,positive
+Worst experience ever with Lemonade's life insurance. Total ripoff!,2023-12-20,7ac2f566,Lemonade,life insurance,negative
+I've been with Nationwide for 7 years and their claims process has always been top-notch. The online portal makes everything so easy.,2023-12-20,0ba55fed,Nationwide,claims process,positive
+Comparing liability coverage between Amica and Nationwide. Just doing my research before making a decision.,2023-12-20,6bdec7cf,Amica,liability coverage,neutral
+"USAA's underwriting is worth every penny. Their mobile app is actually useful, unlike some other companies.",2023-12-21,c2cc42cb,USAA,underwriting,positive
+Anyone else having issues with Nationwide's life insurance? Spent hours on hold only to get nowhere.,2023-12-22,1bfec421,Nationwide,life insurance,negative
+My agent at Farmers went above and beyond with my life insurance issue. The online portal makes everything so easy.,2023-12-22,e324aaf7,Farmers,life insurance,positive
+Had to file a complaint with the insurance commissioner about USAA's liability coverage practices. Spent hours on hold only to get nowhere.,2023-12-24,77313dfb,USAA,liability coverage,negative
+Don't believe Farmers's advertisements about roadside assistance. They're just looking for excuses not to pay.,2023-12-24,112424ee,Farmers,roadside assistance,negative
+Anyone know if Progressive will increase health insurance rates after a minor fender bender? Curious about others' experiences before I commit.,2023-12-25,5f25f693,Progressive,health insurance,neutral
+Avoid Progressive at all costs! Their policy coverage is terrible. Feels like they're actively trying to make things difficult.,2023-12-25,43f47f30,Progressive,policy coverage,negative
+Avoid Farmers at all costs! Their health insurance is terrible. Feels like they're actively trying to make things difficult.,2023-12-25,89c2eddd,Farmers,health insurance,negative
+Anyone know if American Family will increase liability coverage rates after a minor fender bender? Not sure if it's worth switching from my current provider.,2023-12-26,406c3664,American Family,liability coverage,neutral
+Really impressed with Nationwide's customer service when dealing with my renewal. The online portal makes everything so easy.,2023-12-26,d1dea3a4,Nationwide,renewal,positive
+"The claims process with Lemonade was surprisingly smooth. The whole process was painless, which I wasn't expecting!",2023-12-27,c62fb3c4,Lemonade,customer service,positive
+State Farm's customer service is a joke when it comes to premium increase. Total ripoff!,2023-12-29,99e0c524,State Farm,premium increase,negative
+Researching renters insurance options and considering The Hartford. Trying to make sure I'm getting the best deal possible.,2023-12-31,dbdbb0dc,The Hartford,renters insurance,neutral
+Switching away from Liberty Mutual after their horrible handling of my customer service. Feels like they're actively trying to make things difficult.,2023-12-31,98429d53,Liberty Mutual,customer service,negative
+Switching away from Geico after their horrible handling of my online quotes. Their agents don't seem to know their own policies.,2023-12-31,8ddfdd7b,Geico,online quotes,negative
+Don't believe Progressive's advertisements about accident forgiveness. Spent hours on hold only to get nowhere.,2024-01-01,f0ce2bd2,Progressive,accident forgiveness,negative
+Avoid Geico at all costs! Their premium increase is terrible. Spent hours on hold only to get nowhere.,2024-01-02,549ab7db,Geico,premium increase,negative
+What's the process for filing a health insurance claim with The Hartford? Trying to make sure I'm getting the best deal possible.,2024-01-02,23cf17a8,The Hartford,health insurance,neutral
+My agent at Progressive went above and beyond with my deductibles issue. They processed everything quickly and efficiently.,2024-01-03,0e69321f,Progressive,deductibles,positive
+Don't believe State Farm's advertisements about claims process. Complete waste of time and money.,2024-01-04,04c7a614,State Farm,claims process,negative
+Just had a great experience with American Family! Their liability coverage is excellent. It was refreshing to deal with people who genuinely wanted to help.,2024-01-05,60d7e7d8,American Family,liability coverage,positive
+Don't believe Progressive's advertisements about insurance agents. They're just looking for excuses not to pay.,2024-01-08,b48cdfc0,Progressive,insurance agents,negative
+Worst experience ever with The Hartford's renters insurance. Their agents don't seem to know their own policies.,2024-01-11,f281f92b,The Hartford,renters insurance,negative
+They denied my claim even though I've been paying for home insurance coverage for years! Would give zero stars if I could.,2024-01-12,dcde0794,Travelers,home insurance,negative
+Can't recommend Travelers enough for online quotes. Highly recommend!,2024-01-12,f1cafc0d,Travelers,online quotes,positive
+Been fighting with Erie Insurance for 8 months over my deductibles claim. Total ripoff!,2024-01-13,351f90bc,Erie Insurance,deductibles,negative
+Had to file a complaint with the insurance commissioner about Liberty Mutual's underwriting practices. Complete waste of time and money.,2024-01-14,9bab80f8,Liberty Mutual,underwriting,negative
+Been fighting with Root for 9 months over my policy coverage claim. Complete waste of time and money.,2024-01-15,6f2bcb31,Root,policy coverage,negative
+Don't believe Nationwide's advertisements about discounts. Total ripoff!,2024-01-17,d3bdf213,Nationwide,discounts,negative
+Comparing discounts between Liberty Mutual and Geico. Not sure if it's worth switching from my current provider.,2024-01-18,51969004,Liberty Mutual,discounts,neutral
+Nationwide's customer service is a joke when it comes to mobile app. Spent hours on hold only to get nowhere.,2024-01-22,8c0cdc73,Nationwide,mobile app,negative
+Worst experience ever with Erie Insurance's life insurance. Feels like they're actively trying to make things difficult.,2024-01-23,00d14f07,Erie Insurance,life insurance,negative
+My agent at Erie Insurance went above and beyond with my claims process issue. They really came through when I needed them.,2024-01-25,0685acae,Erie Insurance,claims process,positive
+Worst experience ever with Amica's claims process. Would give zero stars if I could.,2024-01-25,49c0c5d1,Amica,claims process,negative
+They denied my claim even though I've been paying for home insurance coverage for years! Will be filing a complaint with my state insurance board.,2024-01-26,a18630e0,Farmers,home insurance,negative
+Anyone know if Farmers will increase claims process rates after a minor hail damage? Has anyone had a similar experience?,2024-01-26,0c305b91,Farmers,claims process,neutral
+"Allstate's home insurance is worth every penny. The whole process was painless, which I wasn't expecting!",2024-01-28,af9a8f03,Allstate,home insurance,positive
+Had to file a complaint with the insurance commissioner about Travelers's liability coverage practices. Their agents don't seem to know their own policies.,2024-01-29,4120a115,Travelers,liability coverage,negative
+Worst experience ever with Farmers's discounts. Feels like they're actively trying to make things difficult.,2024-01-30,4c42e897,Farmers,discounts,negative
+Just got a quote from Amica for mobile app. Not sure what to think yet. Wondering if there are better options out there.,2024-02-01,d2a2d7f4,Amica,mobile app,neutral
+Anyone know if Amica will increase bundling rates after a minor accident? Not sure if it's worth switching from my current provider.,2024-02-01,75ecc0df,Amica,bundling,neutral
+Worst experience ever with Geico's renewal. Spent hours on hold only to get nowhere.,2024-02-03,e3c40f7c,Geico,renewal,negative
+I've been with Erie Insurance for 3 years and their deductibles has always been top-notch. The agent was extremely helpful and knowledgeable.,2024-02-03,75c06e40,Erie Insurance,deductibles,positive
+Does Amica offer good renters insurance for someone in California? Still weighing my options at this point.,2024-02-04,783ce949,Amica,renters insurance,neutral
+Comparing claims process between Lemonade and Allstate. Any pros/cons would be helpful.,2024-02-05,761ba4a7,Lemonade,claims process,neutral
+American Family's customer service is a joke when it comes to online quotes. Will be filing a complaint with my state insurance board.,2024-02-05,96d34e0c,American Family,online quotes,negative
+Anyone else having issues with Allstate's accident forgiveness? Feels like they're actively trying to make things difficult.,2024-02-05,00318648,Allstate,accident forgiveness,negative
+Avoid Nationwide at all costs! Their premium increase is terrible. Will be filing a complaint with my state insurance board.,2024-02-07,e87ab6f8,Nationwide,premium increase,negative
+USAA's discounts is worth every penny. Will definitely be sticking with them for the foreseeable future.,2024-02-08,196c3c81,USAA,discounts,positive
+Don't believe Farmers's advertisements about accident forgiveness. Feels like they're actively trying to make things difficult.,2024-02-08,b6fa620c,Farmers,accident forgiveness,negative
+Been fighting with USAA for 4 months over my bundling claim. Their agents don't seem to know their own policies.,2024-02-08,4cba6468,USAA,bundling,negative
+Don't believe Lemonade's advertisements about liability coverage. Complete waste of time and money.,2024-02-08,edc0dc5a,Lemonade,liability coverage,negative
+Switching away from Liberty Mutual after their horrible handling of my health insurance. Their agents don't seem to know their own policies.,2024-02-08,b7d1536f,Liberty Mutual,health insurance,negative
+Worst experience ever with Erie Insurance's accident forgiveness. Spent hours on hold only to get nowhere.,2024-02-09,c42c336d,Erie Insurance,accident forgiveness,negative
+Anyone else having issues with American Family's deductibles? Feels like they're actively trying to make things difficult.,2024-02-10,4ca3530c,American Family,deductibles,negative
+Had to file a complaint with the insurance commissioner about The Hartford's health insurance practices. Total ripoff!,2024-02-10,4e6ff985,The Hartford,health insurance,negative
+Switching away from USAA after their horrible handling of my deductibles. Their agents don't seem to know their own policies.,2024-02-12,d06185e5,USAA,deductibles,negative
+Switching away from Liberty Mutual after their horrible handling of my auto insurance. Their agents don't seem to know their own policies.,2024-02-12,ffc43808,Liberty Mutual,auto insurance,negative
+Farmers came through for me after my fender bender. Their auto insurance coverage was exactly what I needed. It was refreshing to deal with people who genuinely wanted to help.,2024-02-12,8e4480ff,Farmers,auto insurance,positive
+New policy with Travelers starts next month. Any tips regarding their liability coverage? Has anyone had a similar experience?,2024-02-13,3c0970fa,Travelers,liability coverage,neutral
+Looking for feedback on Allstate for customer service. Still weighing my options at this point.,2024-02-13,d61ff964,Allstate,customer service,neutral
+Researching renewal options and considering Erie Insurance. Not sure if it's worth switching from my current provider.,2024-02-13,ad33b2ff,Erie Insurance,renewal,neutral
+Can't recommend Lemonade enough for roadside assistance. They really came through when I needed them.,2024-02-14,ba4f33ae,Lemonade,roadside assistance,positive
+Does The Hartford offer good home insurance for someone in New York? Wondering if there are better options out there.,2024-02-15,c794cf14,The Hartford,home insurance,neutral
+Anyone else having issues with Amica's mobile app? They're just looking for excuses not to pay.,2024-02-15,dc3804c8,Amica,mobile app,negative
+The claims process with Erie Insurance was surprisingly smooth. It was refreshing to deal with people who genuinely wanted to help.,2024-02-16,51841b10,Erie Insurance,roadside assistance,positive
+Comparing roadside assistance between Geico and Nationwide. Just doing my research before making a decision.,2024-02-16,b8736791,Geico,roadside assistance,neutral
+My agent at Lemonade went above and beyond with my accident forgiveness issue. Will definitely be sticking with them for the foreseeable future.,2024-02-17,d7275b1d,Lemonade,accident forgiveness,positive
+Can't recommend Erie Insurance enough for bundling. The agent was extremely helpful and knowledgeable.,2024-02-17,bd1c641c,Erie Insurance,bundling,positive
+Does Progressive offer good health insurance for someone in Colorado? Any pros/cons would be helpful.,2024-02-18,5f2369b6,Progressive,health insurance,neutral
+Had to file a complaint with the insurance commissioner about State Farm's renters insurance practices. Always some fine print they try to hide behind.,2024-02-20,c4be1851,State Farm,renters insurance,negative
+The claims process with Allstate was surprisingly smooth. They processed everything quickly and efficiently.,2024-02-21,0c5aef9e,Allstate,underwriting,positive
+Anyone else having issues with Nationwide's liability coverage? Spent hours on hold only to get nowhere.,2024-02-22,c96a16dd,Nationwide,liability coverage,negative
+The claims process with Root was surprisingly smooth. They processed everything quickly and efficiently.,2024-02-22,2e749594,Root,renewal,positive
+Switching away from Nationwide after their horrible handling of my discounts. They're just looking for excuses not to pay.,2024-02-23,0169496e,Nationwide,discounts,negative
+They denied my claim even though I've been paying for home insurance coverage for years! Always some fine print they try to hide behind.,2024-02-23,42037c7e,Amica,home insurance,negative
+"I've been with Progressive for 9 years and their customer service has always been top-notch. Their mobile app is actually useful, unlike some other companies.",2024-02-23,1553e2b1,Progressive,customer service,positive
+Don't believe Geico's advertisements about roadside assistance. Would give zero stars if I could.,2024-02-24,89ff59a6,Geico,roadside assistance,negative
+Travelers's customer service is a joke when it comes to insurance agents. They're just looking for excuses not to pay.,2024-02-25,57722bd6,Travelers,insurance agents,negative
+Has anyone had experience with Erie Insurance's discounts? What's been your experience with them?,2024-02-26,1aded8b8,Erie Insurance,discounts,neutral
+Looking for feedback on Amica for insurance agents. What's been your experience with them?,2024-02-27,4a0a3973,Amica,insurance agents,neutral
+They denied my claim even though I've been paying for life insurance coverage for years! Always some fine print they try to hide behind.,2024-02-29,c84e219c,Amica,life insurance,negative
+Geico increased my premium increase premium by 38% for no reason! Would give zero stars if I could.,2024-02-29,18e63618,Geico,premium increase,negative
+Anyone else having issues with Progressive's bundling? Would give zero stars if I could.,2024-02-29,7a4fe55b,Progressive,bundling,negative
+Researching auto insurance options and considering Travelers. Curious about others' experiences before I commit.,2024-02-29,c6c45c45,Travelers,auto insurance,neutral
