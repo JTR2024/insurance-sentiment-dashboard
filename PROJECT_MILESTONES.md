@@ -39,11 +39,16 @@
 
 ---
 
-## 🔜 Milestone 4: Streamlit App Integration & Deployment
+## ✅ Milestone 4: Streamlit App Integration
 
-- [ ] Add real-time user input for GPT-based sentiment classification
-- [ ] Add GPT Q&A section using RAG
-- [ ] Display charts and filters interactively
+- [x] Added GPT-4o input to classify new user-submitted comment
+- [x] Displayed response inline below the chart
+- [x] Fully functional local UI using synthetic data
+
+---
+
+## 🔜 Milestone 5: Deployment Pipeline
+
 - [ ] Add `requirements.txt`, `Procfile`, and runtime config
 - [ ] Configure GitHub Actions for CI
 - [ ] Deploy to AWS or Streamlit Cloud
